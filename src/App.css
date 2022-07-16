@@ -1,22 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *
 {
-  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
   /* color: #333; */
+  font-family: 'Poppins', sans-serif;
+}
+:root
+{
+  --orange: hsl(12, 98%, 50%);
+  --grey: #43494e;
 }
 .custom-sec-banner
 {
   background-image: url('./images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 @media screen and (max-width: 600px) 
 {
-  .custom-sec-banner
+  .custom-banner-content h1
   {
-    height: 123vh;
+    font-size: 2.4rem;
+  }
+}
+@media screen and (max-width: 400px) 
+{
+  .custom-banner-content h1
+  {
+    font-size: 2rem;
   }
 }
 .text-white
@@ -29,11 +43,12 @@
 }
 .custom-banner-content
 {
-  margin-top: 10%;
+  margin-top: 7%;
 }
 .custom-banner-content h1
 {
-  font-size: 3.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
 }
 .custom-counter-content
 {
@@ -42,73 +57,119 @@
 }
 .custom-counter-content h1
 {
-  font-family: 'Arima', cursive;
+  font-family: 'Poppins', sans-serif;
   font-size: 3rem;
 }
 .text-orange
 {
-  color: rgb(212, 59, 4);
+  color: var(--orange);
 }
 .custom-about h1
 {
   font-size: 3.5rem;
   color: #333;
+  font-family: 'Montserrat', sans-serif; 
 }
 .cust-content-container
 {
   padding: 4rem;
   background-color: white;
-  text-align: center;
+  border-radius: 15px;
   box-shadow: 0px 0px 45px rgb(221, 222, 223);
 }
-.cust-content-container h1
-{
-  text-align: center;
-}
+
 
 /* From uiverse.io by @mrhyddenn */
+/* From uiverse.io */
 button {
-  background: rgb(212, 59, 4);
+  position: relative;
   border: none;
-  padding: 10px 20px;
-  display: inline-block;
-  font-size: 15px;
-  font-weight: 600;
-  width: 130px;
-  text-transform: uppercase;
+  background: transparent;
+  padding: 0;
   cursor: pointer;
-  transform: skew(-21deg);
-  color: white;
-}
-
-span {
-  display: inline-block;
-  /* transform: skew(21deg); */
-}
-
-button::before {
-  content: '';
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  touch-action: manipulation;
+ }
+ 
+ .shadow {
   position: absolute;
   top: 0;
-  bottom: 0;
-  right: 100%;
   left: 0;
-  background: #FFF;
-  opacity: 0;
-  z-index: -1;
-  transition: all 0.5s;
-}
-
-button:hover {
-  color: rgb(212, 59, 4);
-  background: rgba(0, 0, 0, 0.5);;
-}
-
-button:hover::before {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: hsl(0deg 0% 0% / 0.25);
+  will-change: transform;
+  transform: translateY(2px);
+  transition: transform
+     600ms
+     cubic-bezier(.3, .7, .4, 1);
+ }
+ 
+ .edge {
+  position: absolute;
+  top: 0;
   left: 0;
-  right: 0;
-  opacity: 1;
-}
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: linear-gradient(
+     to left,
+     hsl(13, 100%, 51%) 0%,
+     hsl(13, 99%, 50%)  8%,
+     hsl(13, 99%, 50%)  92%,
+     hsl(13, 100%, 51%) 100%
+   );
+ }
+ 
+ .front {
+  display: block;
+  position: relative;
+  padding: 12px 27px;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: white;
+  background: var(--orange);
+  will-change: transform;
+  transform: translateY(-4px);
+  transition: transform
+     600ms
+     cubic-bezier(.3, .7, .4, 1);
+ }
+ 
+ button:hover {
+  filter: brightness(110%);
+ }
+ 
+ button:hover .front {
+  transform: translateY(-6px);
+  transition: transform
+     250ms
+     cubic-bezier(.3, .7, .4, 1.5);
+ }
+ 
+ button:active .front {
+  transform: translateY(-2px);
+  transition: transform 34ms;
+ }
+ 
+ button:hover .shadow {
+  transform: translateY(4px);
+  transition: transform
+     250ms
+     cubic-bezier(.3, .7, .4, 1.5);
+ }
+ 
+ button:active .shadow {
+  transform: translateY(1px);
+  transition: transform 34ms;
+ }
+ 
+ button:focus:not(:focus-visible) {
+  outline: none;
+ }
 .cust-ser-section
 {
   background-image: url('./images/service.webp');
@@ -167,7 +228,7 @@ button:hover::before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
   }
-  .feature_icon{}
+
   .single_feature i {
     border: 1px solid #e8e8e9;
     border-radius: 50%;
@@ -206,10 +267,13 @@ button:hover::before {
   .single_feature p { margin-bottom: 0 ;overflow: hidden;}
   /* input contact form */
 input {
-  background: #fff;
+  background: transparent;
 }
 #form {
   margin-top: 50px; 
+  background-color: #fff;
+  padding: 3rem;
+  border-radius: 15px;
 }
 .input-box, .textarea{
   position: relative;
@@ -234,11 +298,11 @@ input {
 .textarea .input-1
 {
   box-sizing: border-box;
-  height: 150px;
+  height: 100px;
   width: 100%;
   border-radius: 4px;
   color: #202124;
-  border: 1px solid #dadce0;
+  border: 2px solid rgb(212, 59, 4);
   padding: 13px 15px;
   transition: 250ms;
 }
@@ -248,32 +312,33 @@ input {
   width: 100%;
   border-radius: 4px;
   color: #202124;
-  border: 1px solid #dadce0;
+  border: 2px solid rgb(212, 59, 4);
   padding: 13px 15px;
   transition: 250ms;
 }
 .input-box .input-1:focus, .textarea .input-1:focus {
   outline: none;
-  border: 2px solid rgb(212, 59, 4);
+  border: 2px solid var(--grey);
   transition: 250ms;
 }
 .input-box.focus .input-label, .input-box.active .input-label, .textarea.focus .input-label, .textarea.active .input-label {
-  color: rgb(212, 59, 4);
+  color: rgb(17, 15, 14);
   top: -8px;
   background: #fff;
   font-size: 1rem;
   transition: 250ms;
 }
 /* contact */
-.cust-cont-section
+.cust-cont-section, .cust-sect-arrive, .custom-footer, .cust-ongoing-section 
 {
-  background-image: url('./images/cont.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to right, #3b3f42 0%, #4b4c4d 100%);;
 }
-.cust-price-section h1, .cust-cont-section h1, .cust-ser-section h1, .cust-vision-section h1  
+.cust-price-section h1, .cust-cont-section h1, .cust-ser-section h1, .cust-vision-section h1, .cust-content-container h1, .cust-sect-service h1, .cust-sect-arrive h1
 {
+  font-family: 'Montserrat', sans-serif; 
   padding: 15px;
+  text-align: center;
+  text-transform: capitalize;
 }
 /* custom align center*/
 .custom-align-center
@@ -281,15 +346,10 @@ input {
   display: flex;
   justify-content: center;
 }
-/* price card section */
-.card-block ul li
+.fa
 {
-  list-style-type: none;
-  padding: 10px;
-}
-.card-block ul
-{
-  margin: 0px;
+  font-size: 1.3rem;
+  margin: 5px;
 }
 .fa-check
 {
@@ -298,28 +358,6 @@ input {
 }
 /* vision card */
 
-#cards .card {
-  border-radius: 20px;
-  min-height: 100%;
-}
-
-#cards .heading-border {
-  position: absolute;
-  width: 100%;
-  top: 60%;
-}
-
-#cards .card .user-picture img {
-  position: absolute;
-  top: -20%;
-  right: 10%;
-  background: #f8f9fa!important;
-  padding: 10px;
-}
-
-#cards .card .user-content .user-name {
-  margin-right: 150px;
-}
 /* Work flow card */
 
 .services-box{
@@ -373,6 +411,7 @@ input {
   box-shadow: 5px 5px 5px 10px #c0c0c0;
   padding: 2rem;
   border-radius: 15px;
+  background-color: #fff;
 }
 .content .h3
 {
@@ -393,11 +432,19 @@ input {
   background-color: rgba(165, 162, 162, 0.438);
   width: 80%;
   padding: 1.5rem;
-  margin-left: -5.4%;
+  margin-left: -7.4%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .custom-bg
 {
-  background-image:  linear-gradient(#eb4e1e65, #ec9d6f),url(./images/seo.webp);
+  background-image:  linear-gradient(#bd8c7d65, #ec9d6f),url(./images/seo.webp);
+  padding: 2rem;
+  border-radius: 15px;
+}
+.custom-bg1
+{
+  background-image:  linear-gradient(#bd8c7d65, #ec9d6f),url(./images/web.png);
   padding: 2rem;
   border-radius: 15px;
 }
@@ -464,7 +511,88 @@ input {
   font-weight: 600;
 }
 /* footer */
-.custom-footer
+.custom-media-icon li
 {
-  background-color: #333;
+  margin-bottom: 15px;
+}
+hr
+{
+  color: #fff !important;
+}
+/* media link */
+
+#floating-share-buttons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+}
+#floating-share-buttons li {
+  
+}
+#floating-share-buttons a {
+  color: #fff;
+  text-decoration:none;
+  font-size:14px;
+}
+#floating-share-buttons a.share-facebook {
+  background-color: #395793 ;
+}
+#floating-share-buttons a.share-instagram {
+  background-color: #e95950;
+}
+#floating-share-buttons a.share-twitter {
+  background-color: #1DA1F2 ;
+}
+#floating-share-buttons a.share-linkedin {
+  background-color: #0077b5;
+}
+#floating-share-buttons a.share-youtube {
+  background-color: #FF0000 ;
+}
+/*
+  Breakpoint is 1024px. You change this value to adapt it to your design
+*/
+
+/* Desktop */ @media (min-width: 800px) {
+  ul#floating-share-buttons {    
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    min-height: 100px;
+    padding: 0px;
+  }
+  ul#floating-share-buttons a {
+    width:3rem;
+    height:3rem;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;    
+    transition: width 0.5s;
+  }
+  ul#floating-share-buttons a:hover {
+    width:4.5rem;
+  }
+  #floating-share-buttons a.share-whatsapp {
+    display:none;
+  }
+}
+
+/* client section */
+
+.custom-img img {
+    filter: gray;
+    -webkit-filter: grayscale(1); 
+    -webkit-transition: all .8s ease-in-out;  
+  }
+.custom-img img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+.custom-img
+{
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
 }

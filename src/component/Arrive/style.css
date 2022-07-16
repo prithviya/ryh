@@ -1,0 +1,27 @@
+.card-body
+{
+    padding: 2rem 2rem !important;
+}
+#cards .card {
+    border-radius: 20px;
+    min-height: 100%;
+  }
+  
+  #cards .heading-border {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+  }
+  
+  #cards .card .user-picture img {
+    position: absolute;
+    top: 7%;
+    right: 10%;
+    background: #f8f9fa!important;
+    padding: 10px;
+  }
+  
+  #cards .card .user-content .user-name {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+  }
