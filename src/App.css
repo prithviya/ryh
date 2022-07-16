@@ -73,6 +73,7 @@
 .cust-content-container
 {
   padding: 4rem;
+  padding-top: 2rem;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0px 0px 45px rgb(221, 222, 223);
@@ -333,7 +334,7 @@ input {
 {
   background: linear-gradient(to right, #3b3f42 0%, #4b4c4d 100%);;
 }
-.cust-price-section h1, .cust-cont-section h1, .cust-ser-section h1, .cust-vision-section h1, .cust-content-container h1, .cust-sect-service h1, .cust-sect-arrive h1
+.cust-price-section h1, .cust-cont-section h1, .cust-ser-section h1, .cust-vision-section h1, .cust-content-container h1, .cust-sect-service h1, .cust-sect-arrive h1, .cust-work-section h1, .cust-ongoing-section h1, .custom-sect-client h1
 {
   font-family: 'Montserrat', sans-serif; 
   padding: 15px;

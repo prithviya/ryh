@@ -13,9 +13,9 @@ function Service() {
     ];
   return (
     <div className='pt-5 pb-5 container cust-sect-service'>
-        <h1>Our Services</h1>
+        <h1 className='text-center'>Our Services</h1>
         <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={9000} >
-          <Item className='mb-3'>
+          <Item className='mb-3 mt-4'>
             <div className=''>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                 <ul className='custom-list'>
@@ -62,7 +62,7 @@ function Service() {
                 </ul>
             </div>
           </Item>
-          <Item className='mb-3'>
+          <Item className='mb-3 mt-4'>
             <div>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                  <ul className='custom-list'>
@@ -109,7 +109,7 @@ function Service() {
                 </ul>
             </div>
           </Item>
-          <Item className='mb-3'>
+          <Item className='mb-3 mt-4'>
             <div className=''>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                  <ul className='custom-list'>
@@ -156,7 +156,7 @@ function Service() {
                 </ul>
             </div>
           </Item>
-          <Item className='mb-3'>
+          <Item className='mb-3 mt-4'>
             <div>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                 <ul className='custom-list'>
@@ -203,7 +203,7 @@ function Service() {
                 </ul>
             </div>
           </Item>
-          <Item className='mb-3'>
+          <Item className='mb-3 mt-4'>
             <div>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                 <ul className='custom-list'>

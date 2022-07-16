@@ -4,7 +4,7 @@ import Images from '../../constants/asset';
 function Client() {
   return (
     <div>
-        <div className='pt-5 pb-5 container'>
+        <div className='pt-5 pb-5 custom-sect-client container'>
             <h1 className='text-center'> 
                 Our Happy Clients
             </h1>

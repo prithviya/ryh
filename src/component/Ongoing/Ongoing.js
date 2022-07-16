@@ -17,7 +17,7 @@ function Ongoing() {
             <div className='container'>
                 <h1 className='text-center p-3 text-white'>On Going Projects</h1>
                 <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={8000} >
-                    <Item className='mb-3'>
+                    <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-7'>
                                 <div className='content'>
@@ -103,7 +103,7 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
-                    <Item className='mb-3'>
+                    <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-7'>
                                 <div className='content'>
@@ -190,7 +190,7 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
-                    <Item className='mb-3'>
+                    <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-7'>
                                 <div className='content'>

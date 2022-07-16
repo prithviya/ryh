@@ -9,7 +9,7 @@ export default function work() {
             <h1 className='text-center'>
                 Our Digital Marketing Services
             </h1>
-            <p className='text-center'>
+            <p className='text-center p-2'>
                 We aim at creating brand awareness, initiate and encourage consumer <br/>interactions and also look after the reputation management
             </p>
             <div class="services">
@@ -104,6 +104,14 @@ export default function work() {
                                     </div>
                                 </a>
                             </div>
+                        </div>
+                        <div className='col-12 custom-align-center'>
+                            <button>
+                                <span class="shadow"></span>
+                                <span class="edge"></span>
+                                <span class="front text"> Show Case
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </div>

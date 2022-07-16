@@ -21,7 +21,7 @@ function About() {
                     <h1 className=''>Our Mission</h1>
                     <div className='row'>
                         <div className='col-md-8'>
-                            <p className='text-left'>
+                            <p className='text-left pt-2'>
                                 We're on a mission to become your digital media partner and create a long-term connection with you. A strong connection is essential for a long-lasting relationship. Knowing each other, developing a consistent strategy, comprehending your offerings, and becoming an important part of your marketing team, will assist us to coordinate our efforts in order to execute a successful digital marketing campaign.
                             </p>
                         </div>
