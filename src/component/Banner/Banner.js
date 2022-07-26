@@ -3,6 +3,8 @@ import {useEffect} from 'react';
 import { FaArrowUp } from "react-icons/fa"; 
 import Image from "../../constants/asset";
 import { FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
+import Navbar from '../Navbar/Navbar';
+
 function Banner() {
     useEffect(() => {
         // 👇️ scroll to top on page load
@@ -10,6 +12,8 @@ function Banner() {
       }, []);
     
   return (
+    <>
+    <Navbar />
     <div className='custom-sec-banner pb-5'>
         <div className='custom-sec-navbar '>
             <nav className='container navbar navbar-expand-lg pt-0'>
@@ -29,35 +33,7 @@ function Banner() {
                 </div>
             </nav>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light nav">
-            <div className='container'>
-                <a class="navbar-brand text-white">
-                    <img src={ Image.BANNER_LOGO }/>
-                </a>   
-                                
-                <form class="form-inline">
-                    <a className='navbar-toggler' data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src= { Image.MENU_ICON}  style={{ height: 50, width: 50 }}/>
-                    </a>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-white pl-3" href="#">Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">Our Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>    
-                </form>
-            </div>
-        </nav>
+            
         <div className='container custom-banner-content'>
             <div className='row'>
                 <div className='col-md-7'>
@@ -113,6 +89,8 @@ function Banner() {
             </button>
         </div>
     </div>
+    </>
+    
   )
 }
 

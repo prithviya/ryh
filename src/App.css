@@ -52,7 +52,10 @@
 {
   color: rgb(212, 59, 4) !important;
 }
-
+.text-black
+{
+  color:rgba(0, 0, 0, 0.24);
+}
 .custom-sec-navbar
 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -641,9 +644,7 @@ hr
   padding: 0;
   font-size: 0;
 }
-#floating-share-buttons li {
-  
-}
+
 #floating-share-buttons a {
   color: #fff;
   text-decoration:none;
