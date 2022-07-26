@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import Images from "../../constants/asset";
+
 
 export default function work() {
   return (
@@ -18,12 +19,15 @@ export default function work() {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card card3">
                                 <a href="#" class="">
-                                    <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                        <FaFacebookF/>
-                                    </span>
+                                    <div className='custom-align-center'>
+                                        <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
+                                            <img src= { Images.SEO_ICON } alt="APP_ICON" className='mt-3' style={{width:'64px'}}/>
+                                        </span>
+                                    </div>
+                                    
                                     <div class="card-body">
                                         <span class="card-title text-center">SEO</span>
-                                        <p class="card-text text-justify">
+                                        <p class="card-text text-justify mb-4">
                                         An average user sees more than 1000 ads every day, with the help of good SEO strategists we optimize Search engines and amplify them across various channels to attain higher visibility and receive a steady stream of traffic searching making your brand.
                                         </p>
                                     </div>
@@ -33,12 +37,15 @@ export default function work() {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card card3">
                                 <a href="#" class="">
-                                    <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                        <FaFacebookF/>
-                                    </span>
+                                    <div className='custom-align-center'>
+                                        <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
+                                            <img src= { Images.BRAND_ICON } alt="APP_ICON" className='mt-3'/>
+                                        </span>
+                                    </div>
+                                    
                                     <div class="card-body">
                                         <span class="card-title text-center">Branding</span>
-                                        <p class="card-text text-justify">
+                                        <p class="card-text text-justify mb-4">
                                             A great brand is one that understands who its target audience is, how they think, what they need, and how they spend their time on digital platforms. So we recognize your target audience and work towards it to make your business into a Brand. 
                                         </p>
                                     </div>
@@ -48,12 +55,14 @@ export default function work() {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card card3">
                                 <a href="#" class="">
-                                    <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                        <FaFacebookF/>
-                                    </span>
+                                    <div className='custom-align-center'>
+                                        <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
+                                            <img src= { Images.SMM_ICON } alt="APP_ICON" className='mt-3'/>
+                                        </span>
+                                    </div>
                                     <div class="card-body">
                                         <span class="card-title text-center">SMM</span>
-                                        <p class="card-text text-justify">
+                                        <p class="card-text text-justify mb-4">
                                             To build an appealing presence in social media, we provide a four-stage process by understanding the audience through various listening tools; building your brand story to create customized solutions, and continuously tracking the results.
                                         </p>
                                     </div>
@@ -63,12 +72,15 @@ export default function work() {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card card3">
                                 <a href="#" class="">
-                                    <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                        <FaFacebookF/>
-                                    </span>
+                                    <div className='custom-align-center'>
+                                        <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
+                                            <img src= { Images.SEM_ICON } alt="APP_ICON" className='mt-3'/>
+                                        </span>
+                                    </div>
+                                    
                                     <div class="card-body">
                                         <span class="card-title text-center">SEM</span>
-                                        <p class="card-text text-justify">
+                                        <p class="card-text text-justify mb-4">
                                         We identify and capture the attention of potential customers at the very beginning of their search journey by identifying best-suited channels and setting optimal budgets and providing maximum results.
                                         </p>
                                     </div>
@@ -78,12 +90,15 @@ export default function work() {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card card3">
                                 <a href="#" class="">
-                                    <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                        <FaFacebookF/>
-                                    </span>
+                                    <div className='custom-align-center'>
+                                        <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
+                                            <img src= { Images.APP_ICON } alt="APP_ICON" className='mt-3'/>
+                                        </span>
+                                    </div>
+                                    
                                     <div class="card-body">
-                                        <span class="card-title text-center">Websit Development</span>
-                                        <p class="card-text text-justify">
+                                        <span class="card-title text-center">Website Development</span>
+                                        <p class="card-text text-justify mb-4">
                                         Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it.
                                         </p>
                                     </div>
@@ -93,12 +108,14 @@ export default function work() {
                         <div class="col-12 col-md-6 col-lg-4">
                             <div class="card card3">
                                 <a href="#" class="">
-                                    <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                        <FaFacebookF/>
-                                    </span>
+                                   <div className='custom-align-center'>
+                                        <span class="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
+                                            <img src= { Images.MOB_ICON } alt="MOB_ICON" className='mt-3'/>
+                                        </span>
+                                   </div>
                                     <div class="card-body">
                                         <span class="card-title text-center">App Development</span>
-                                        <p class="card-text text-justify">
+                                        <p class="card-text text-justify mb-4">
                                         Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it.
                                         </p>
                                     </div>
@@ -106,12 +123,14 @@ export default function work() {
                             </div>
                         </div>
                         <div className='col-12 custom-align-center'>
-                            <button>
-                                <span class="shadow"></span>
-                                <span class="edge"></span>
-                                <span class="front text"> Show Case
-                                </span>
-                            </button>
+                            <a href='http://showcase.rankuhigher.in/' target={'_blank'}>
+                                <button>
+                                    <span class="shadow"></span>
+                                    <span class="edge"></span>
+                                    <span class="front text"> Show Case
+                                    </span>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

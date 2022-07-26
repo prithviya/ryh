@@ -10,7 +10,27 @@
 {
     list-style-type: none;
 }
-.custom-list li
+
+.eWjCzc
 {
-    font-size: 1rem !important;
+    background-color: #d43b04 !important;
+    color:#fff !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    width: 40px !important;
+    height: 50px !important;
+}
+.eAyARa
+{
+    box-shadow: none !important;
+    border-radius: 0px !important;
+}
+.custom-list
+{
+    position: relative;
+}
+.custom-list .custom-font-icon
+{
+    position: absolute;
+    left: -40px;
 }

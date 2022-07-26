@@ -11,14 +11,25 @@
   --orange: hsl(12, 98%, 50%);
   --grey: #43494e;
 }
+.custom-font-icon
+{
+  font-size: 1.4rem;
+  margin: 5px;
+}
+
 .custom-sec-banner
 {
-  background-image: url('./images/banner.jpg');
+  background-image: url('./images/banner.webp');
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
   width: 100%;
 }
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item
+{
+  padding-left: 3rem !important;
+}
+
 @media screen and (max-width: 600px) 
 {
   .custom-banner-content h1
@@ -30,13 +41,18 @@
 {
   .custom-banner-content h1
   {
-    font-size: 2rem;
+    font-size: 2rem !important;
   }
 }
 .text-white
 {
   color: #fff;
 }
+.text-orange
+{
+  color: rgb(212, 59, 4) !important;
+}
+
 .custom-sec-navbar
 {
   background-color: rgba(0, 0, 0, 0.5);
@@ -60,15 +76,28 @@
   font-family: 'Poppins', sans-serif;
   font-size: 3rem;
 }
-.text-orange
-{
-  color: var(--orange);
+.navbar-expand-lg .navbar-collapse {
+  display: flex!important;
+  justify-content: right;
 }
-.custom-about h1
+/* about */
+.custom-about .cust-title-abt
 {
   font-size: 3.5rem;
   color: #333;
   font-family: 'Montserrat', sans-serif; 
+}
+@media screen and (max-width: 400px) 
+{
+  .cust-title-abt
+  {
+    font-size: 2rem !important;
+  }
+  .custom-font-abt
+  {
+    font-size: 1.6 !important;
+    font-family: 'Montserrat', sans-serif; 
+  }
 }
 .cust-content-container
 {
@@ -171,17 +200,28 @@ button {
  button:focus:not(:focus-visible) {
   outline: none;
  }
-.cust-ser-section
+/* .cust-ser-section
 {
   background-image: url('./images/service.webp');
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
   margin-top: 25px;
-}
+} */
 .cust-ser-section .container
 {
   padding: 40px;
+}
+.custom-border
+{
+  padding: 2rem 1.5rem;
+  border-radius: 15px;
+  border: 1px solid #d43b04;
+}
+.custom-border:hover
+{
+  background: linear-gradient(to bottom, #f46b45, #ec9d6f);
+  color: #fff;
 }
 
 .single_feature{
@@ -409,7 +449,7 @@ input {
 /* on going project */
 .cust-ongoing-section .content
 {
-  box-shadow: 5px 5px 5px 10px #c0c0c0;
+  box-shadow: 0px 0px 5px 0px #c0c0c0;
   padding: 2rem;
   border-radius: 15px;
   background-color: #fff;
@@ -422,33 +462,17 @@ input {
 .content span
 {
   margin: 16px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .content i
 {
-  font-size: 2.1rem;
-}
-.content-title
-{
-  background-color: rgba(165, 162, 162, 0.438);
-  width: 80%;
-  padding: 1.5rem;
-  margin-left: -7.4%;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  font-size: 1.4rem;
 }
 .custom-bg
 {
-  background-image:  linear-gradient(#bd8c7d65, #ec9d6f),url(./images/seo.webp);
-  padding: 2rem;
   border-radius: 15px;
 }
-.custom-bg1
-{
-  background-image:  linear-gradient(#bd8c7d65, #ec9d6f),url(./images/web.png);
-  padding: 2rem;
-  border-radius: 15px;
-}
+
 /* contact */
 .cust-contact-section
 {
@@ -521,7 +545,96 @@ hr
   color: #fff !important;
 }
 /* media link */
+@media screen and (max-width: 600px) 
+{
+  #floating-share-buttons
+  {
+    display: none;
+  }
+  
+.rounded-social-buttons {
+  text-align: center;
+}
 
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2.125rem;
+  height: 2.125rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+  font-size: 18px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+  background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+  color: #bb0000;
+  background: #fefefe;
+  border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+}
 #floating-share-buttons {
   list-style-type: none;
   margin: 0;
@@ -555,13 +668,18 @@ hr
   Breakpoint is 1024px. You change this value to adapt it to your design
 */
 
-/* Desktop */ @media (min-width: 800px) {
+/* Desktop */ 
+@media (min-width: 600px) {
   ul#floating-share-buttons {    
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
     min-height: 100px;
     padding: 0px;
+  }
+  .media-mob-view
+  {
+    display: none;
   }
   ul#floating-share-buttons a {
     width:3rem;
@@ -593,7 +711,7 @@ hr
 }
 .custom-img
 {
-  padding: 2rem;
+  padding: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-bottom: 20px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { FaCheck } from "react-icons/fa";
 
 export default function 
 () {
@@ -43,23 +44,29 @@ export default function
                                             <h4 class="text-capitalize user-name text-right">What Comes In Our Digital Marketing Services</h4>                                            
                                             <p class="mb-0 mt-3">
                                             RYH come up services under Digital Marketing Services.
-                                                <ul>
+                                                <ul className='arrive_ul'>
                                                     <li>
+                                                        <FaCheck className='custom-font-icon text-orange'/>
                                                         SEO Services
                                                     </li>
-                                                    <li>                                                        
+                                                    <li> 
+                                                        <FaCheck className='custom-font-icon text-orange'/>                                                       
                                                         SEM Services
                                                     </li>
                                                     <li>
+                                                        <FaCheck className='custom-font-icon text-orange'/>   
                                                         SMM Services
                                                     </li>
-                                                    <li>                                                        
+                                                    <li>    
+                                                        <FaCheck className='custom-font-icon text-orange'/>                                                       
                                                         Branding Services
                                                     </li>
                                                     <li>
+                                                        <FaCheck className='custom-font-icon text-orange'/>   
                                                         Website Development
                                                     </li>
-                                                    <li>                                                        
+                                                    <li>  
+                                                        <FaCheck className='custom-font-icon text-orange'/>                                                         
                                                         Mobile App Development
                                                     </li>
                                                 </ul>

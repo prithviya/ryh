@@ -13,6 +13,7 @@ import Getin from './component/Getin/Getin';
 import Testimonial from './component/Testimonial/Testimonial';
 import Footer from './component/Footer/Footer';
 import Client from './component/Client/Client';
+
 function App() {
   return (
     <div>
@@ -29,8 +30,8 @@ function App() {
           <Client/>
           <Footer/>
           <Routes>
-            {/* <Route path ="/" element ={<Landing/>} />
-            <Route exact path="/carousal"  element={<Carousel/>}/> */}
+            {/* <Route path ="/" element ={<Landing/>} /> */}
+            {/* <Route exact path="/"  element={<Navbar/>}/> */}
           </Routes>
       </Router>
     </div>

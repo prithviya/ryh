@@ -1,6 +1,7 @@
 .card-body
 {
     padding: 2rem 2rem !important;
+    padding-bottom: 0px !important;
 }
 #cards .card {
     border-radius: 20px;
@@ -12,7 +13,11 @@
     width: 100%;
     top: 60%;
   }
-  
+
+  .arrive_ul
+  {
+    padding-left: 1rem;
+  }
   #cards .card .user-picture img {
     position: absolute;
     top: 7%;

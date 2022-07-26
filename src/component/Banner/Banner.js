@@ -1,7 +1,8 @@
 import React from 'react';
 import {useEffect} from 'react';
-import { FaArrowUp} from "react-icons/fa"; 
-
+import { FaArrowUp } from "react-icons/fa"; 
+import Image from "../../constants/asset";
+import { FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
 function Banner() {
     useEffect(() => {
         // 👇️ scroll to top on page load
@@ -10,9 +11,29 @@ function Banner() {
     
   return (
     <div className='custom-sec-banner pb-5'>
-        <nav class="navbar navbar-expand-lg navbar-light custom-sec-navbar">
+        <div className='custom-sec-navbar '>
+            <nav className='container navbar navbar-expand-lg pt-0'>
+                <div className='collapse navbar-collapse mb-0'>
+                    <ul class="navbar-nav">
+                        <li class="nav-item p-2">
+                            <a className='text-white'>
+                                <FaEnvelopeOpen/> ryh.digitalservices@gmail.com
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a className='text-white'>
+                                <FaPhoneAlt/> +91 12345 67890
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light nav">
             <div className='container'>
-                <a class="navbar-brand text-white">Navbar</a>   
+                <a class="navbar-brand text-white">
+                    <img src={ Image.BANNER_LOGO }/>
+                </a>   
                                 
                 <form class="form-inline">
                     <a className='navbar-toggler' data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,36 +42,22 @@ function Banner() {
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="#"><i class="fas fa-at"></i> ryh.digitalservices@gmail.com</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fas fa-phone-alt"></i> +91 12345 67890</a>
-                        </li>                    
-                    </ul>
-                </div>    
-                </form>
-            </div>
-        </nav>
-        <div className='container'>
-            <nav class="navbar navbar-expand-lg navbar-light">                
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white pl-3" href="#">Home </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">About Us</a>
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">Our Services<span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-white" href="#">Our Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Contact Us</a>
                         </li>
                     </ul>
-                </div>
-            </nav>
-        </div>
+                </div>    
+                </form>
+            </div>
+        </nav>
         <div className='container custom-banner-content'>
             <div className='row'>
                 <div className='col-md-7'>
@@ -68,15 +75,15 @@ function Banner() {
                 <div className='col-md-5'>
                 </div>
                 <div className='row custom-counter-content'>
-                    <div className='col-md-3'>
+                    <div className='col-md-2 col-4 text-center'>
                         <h1 className='text-orange'>20+</h1>
                         <h3 className='text-white'>Client</h3>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-2 col-4 text-center'>
                         <h1 className='text-orange'>10+</h1>
                         <h3 className='text-white'>Project</h3>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-md-2 col-4 text-center'>
                         <h1 className='text-orange'>20+</h1>
                         <h3 className='text-white'>Client</h3>
                     </div>

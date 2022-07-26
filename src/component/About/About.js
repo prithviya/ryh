@@ -8,10 +8,10 @@ function About() {
             <div className='mt-5 mb-5'>
                 <div className='row custom-about mb-5'>
                     <div className='col-md-3'>
-                        <h1 className='text-center'>We are Rank You Higher</h1>
+                        <h1 className='text-center cust-title-abt'>We are Rank You Higher</h1>
                     </div>
                     <div className='col-md-8'>
-                        <h1 className='text-center custom-font'>The Best Digital Marketing Company in Coimbatore</h1>
+                        <h1 className='text-center custom-font-abt'>The Best Digital Marketing Company in Coimbatore</h1>
                         <p className='pt-3'>
                         We offer a proven workflow and tested packages that suites best all kinds of business. To deliver the best, we have to be better in the service we provide. In the current Digital World, the approximate number of websites now surpasses 1 billion. If you have an idea and want to bring the best out of it to rank you up in the digital space, we (rank you higher) will make it happen. A customized offering can be availed by the client at any time. RYH offers a proven workflow; techniques and test packages that best utilize digital marketing capabilities.
                         </p>
@@ -26,7 +26,7 @@ function About() {
                             </p>
                         </div>
                         <div className='col-md-4'>
-                            <figure>
+                            <figure className='custom-align-center'>
                                 <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt="" style={{ width:'70%' }}/>
                             </figure>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
     <div>
@@ -22,51 +22,20 @@ function Footer() {
                                 <h4 className='text-white'>Email</h4>
                                 <p className='text-white'>
                                     <a class="text-white" href="#">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i> ryh.digitalservices@gmail.com
+                                        <FaEnvelopeOpen/> ryh.digitalservices@gmail.com
                                     </a>
                                 </p>
                                 <h4 className='text-white'>Phone Number</h4>
                                 <p className='text-white'>
                                     <a class="text-white" href="#">
-                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i> +91 12345 67890
+                                        <FaPhoneAlt/> +91 12345 67890
                                     </a>
                                 </p>
                                 
                             </div>                            
                         </div>
                     </div>
-                    {/* <div className='col-md-2'>
-                        <div className='custom-media-icon'>
-                            <h4 className='text-white'>Social Media</h4>
-                            <ul>
-                                <li>
-                                    <a>
-                                        <img src={ Images.INSTAGRAM_ICON }/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <img src={ Images.WHATSAPP_ICON }/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <img src={ Images.FACEBOOK_ICON }/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <img src={ Images.YOUTUBE_ICON }/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a>
-                                        <img src={ Images.LINKEDIN_ICON }/>
-                                    </a>
-                                </li> 
-                            </ul>
-                        </div>
-                    </div> */}
+                    
                     <div className='col-md-3'>
                         <div>
                             <h4 className='text-white'>Location</h4>
@@ -75,15 +44,33 @@ function Footer() {
                     </div>
                     <div className='col-md-1'></div>
                 </div>
-                <hr/>
+                <hr/>                
                 <p className='text-center text-white'>
                     2022 © Copyright. All Rights Reserved.
                 </p>
-                
+                <div className='media-mob-view'>
+                    <div class="rounded-social-buttons">
+                        <a class="social-button facebook" href="https://www.facebook.com/rankuhigher2020/" target="_blank">
+                            <FaFacebookF className='text-white'/>
+                        </a>
+                        <a class="social-button twitter" href="https://twitter.com/Ranku_higher/" target="_blank">
+                            <FaTwitter/>
+                        </a>
+                        <a class="social-button linkedin" href="#" target="_blank">
+                            <FaLinkedinIn/>
+                        </a>
+                        <a class="social-button youtube" href="#" target="_blank">
+                            <FaYoutube/>
+                        </a>
+                        <a class="social-button instagram" href="https://www.instagram.com/ranku_higher/" target="_blank">
+                            <FaInstagram/>
+                        </a>
+                    </div>
+                </div>
             </div>
             <ul id="floating-share-buttons">
                 <li>
-                    <a href="#" class="share-twitter">
+                    <a href="https://twitter.com/Ranku_higher/" target={'_blank'} class="share-twitter">
                         <h5><FaTwitter/></h5>
                     </a>
                 </li>  
@@ -93,13 +80,13 @@ function Footer() {
                     </a>
                 </li>
                 <li>
-                    <a href="#" class="share-facebook">
+                    <a href="https://www.facebook.com/rankuhigher2020/" target={'_blank'} class="share-facebook">
                        <h5> <FaFacebookF/></h5>
                     </a>
                 </li>            
                 
                 <li>
-                    <a href="#" class="share-instagram">
+                    <a href="https://www.instagram.com/ranku_higher/" target={'_blank'} class="share-instagram">
                         <h5><FaInstagram/></h5>
                     </a>
                 </li> 
