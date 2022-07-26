@@ -28,15 +28,15 @@ function Client() {
                     <div className='custom-img'>
                         <img src={ Images.SHELTERS } style={{ width:'100%', height:'100%' }}/>
                     </div>                    
-                </div>
+                </div>                
                 <div className='col-md-4 col-6 cust-card-border'>
                     <div className='custom-img'>
-                        <img src={ Images.RGI } style={{ width:'100%', height:'100%' }}/>
+                        <img src={ Images.SR} style={{ width:'100%', height:'100%' }}/>
                     </div>                    
                 </div>
                 <div className='col-md-4 col-6 cust-card-border'>
                     <div className='custom-img'>
-                        <img src={ Images.SR} style={{ width:'100%', height:'100%' }}/>
+                        <img src={ Images.RGI } style={{ width:'100%', height:'100%' }}/>
                     </div>                    
                 </div>
             </div>

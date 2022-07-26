@@ -12,7 +12,7 @@ function Testimonial() {
     ];
   return (
     <div className='pb-5'>
-        <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={7600} >
+        <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={9999} >
             <Item className=''>
                 <section class="testimonial">
                     <div class="container">
