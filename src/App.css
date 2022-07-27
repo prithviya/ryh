@@ -18,11 +18,9 @@
 }
 
 /* banner */
-.shrink .navbar {
-  color: #fafafa;
-  background: #00c6ff;
-  background: -webkit-linear-gradient(55deg, #00c6ff 10%, #0072ff 90%);
-  background: linear-gradient(35deg, #00c6ff 10%, #0072ff 90%);
+
+.styles_navSocial__3JBh_ {
+  width: 0vw !important;
 }
 .custom-sec-banner
 {
