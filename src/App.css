@@ -49,6 +49,7 @@
   .custom-banner-content h1
   {
     font-size: 2rem !important;
+    padding-top: 7%;
   }
 }
 .text-white

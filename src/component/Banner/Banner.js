@@ -3,6 +3,7 @@ import {useEffect} from 'react';
 import { FaArrowUp, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa"; 
 import Image from "../../constants/asset";
 import { ReactNavbar } from "react-responsive-animate-navbar";
+import Logo from '../../images/logo.webp';
 
     const Banner= () => {
     const Home = () => <h1>home</h1>;
@@ -19,13 +20,8 @@ import { ReactNavbar } from "react-responsive-animate-navbar";
     <div className='custom-sec-banner pb-5'>
          
          <ReactNavbar
-                color="#191919"
-                image={[
-                    {
-                        name:"logo", 
-                        url:"../../images/logo.webp",
-                    }
-                ]}
+                color="#464849"
+                logo="logo.webp"
                 menu={[
                 { name: "HOME", to: "/", component: Home },
                 { name: "ABOUT US", to: "/articles", component: About },
