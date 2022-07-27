@@ -2,8 +2,14 @@ import React from 'react';
 import {useEffect} from 'react';
 import { FaArrowUp, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa"; 
 import Image from "../../constants/asset";
+import { ReactNavbar } from "react-responsive-animate-navbar";
 
-function Banner() {
+    const Banner= () => {
+    const Home = () => <h1>home</h1>;
+    const Articles = () => <h1>Articles</h1>;
+    const Contact = () => <h1>Contact</h1>;
+    const About = () => <h1>About</h1>;
+
     useEffect(() => {
         // 👇️ scroll to top on page load
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -11,37 +17,49 @@ function Banner() {
     
   return (
     <div className='custom-sec-banner pb-5'>
-        <div className='custom-sec-navbar '>
-            <div className='container custom-sect-navbar' style={{height:'40px'}}>
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div className='container'>                                                        
-                        <form class="form-inline">
-                            <div class="collapse navbar-collapse" id="navbarText">
-                                <ul class="navbar-nav mr-auto">
-                                    <li class="nav-item active" id="cust-link-font">
-                                        <a class="nav-link text-white" href="mailto:ryh.digitalservices@gmail.com">
-                                            <FaEnvelopeOpen className=''/> 
-                                            <span className='ml-2'>
-                                                ryh.digitalservices@gmail.com
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item"  id="cust-link-font">
-                                        <a class="nav-link text-white" href="tel:+91 7558101666">
-                                            <FaPhoneAlt/>
-                                            <span className='ml-2'>
-                                                +91 75581 01666
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>    
-                        </form>
-                    </div>
-                </nav>
-            </div>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-light">
+         
+       <div className='container'>
+            <ReactNavbar
+                color="#191919"
+                image={[
+                    {
+                        name:"logo", 
+                        url:"../../images/logo.webp",
+                    }
+                ]}
+                menu={[
+                { name: "HOME", to: "/", component: Home },
+                { name: "ABOUT US", to: "/articles", component: About },
+                { name: "OUR SERVICES", to: "/about", component: About },
+                { name: "CONTACT US", to: "/contact" },
+                ]}
+                social={[
+                //   {
+                //     name: "Email",
+                //     url: "https://www.linkedin.com/in/nazeh-taha/",
+                //     icon: ["fab", "linkedin-in"],
+                //   },
+                //   {
+                //     name: "Facebook",
+                //     url: "https://www.facebook.com/nazeh200/",
+                //     icon: ["fab", "facebook-f"],
+                //   },
+                //   {
+                //     name: "Instagram",
+                //     url: "https://www.instagram.com/nazeh_taha/",
+                //     icon: ["fab", "instagram"],
+                //   },
+                //   {
+                //     name: "Twitter",
+                //     url: "http://nazehtaha.herokuapp.com/",
+                //     icon: ["fab", "twitter"],
+                //   },
+                ]}
+                sticky
+            />
+       </div>
+                
+        {/* <nav class="navbar navbar-expand-lg navbar-light">
             <div className='container'>
                 <a class="navbar-brand text-white">
                     <img src={ Image.BANNER_LOGO }/>
@@ -69,7 +87,7 @@ function Banner() {
                 </div>    
                 </form>
             </div>
-        </nav>
+        </nav> */}
         <div className='container custom-banner-content'>
             <div className='row'>
                 <div className='col-md-7'>

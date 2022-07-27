@@ -13,11 +13,13 @@ import Getin from './component/Getin/Getin';
 import Testimonial from './component/Testimonial/Testimonial';
 import Footer from './component/Footer/Footer';
 import Client from './component/Client/Client';
+import Header from './component/Header/Header';
 
 function App() {
   return (
     <div>
       <Router>
+      {/* <Header/> */}
           <Banner/>
           <About/>
           <Arrive/>          
@@ -27,6 +29,7 @@ function App() {
           <Getin/>
           <Testimonial/>
           <Ongoing/>
+          
           <Client/>
           <Footer/>
           <Routes>
