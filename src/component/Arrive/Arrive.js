@@ -45,27 +45,27 @@ export default function
                                             <p class="mb-0 mt-3">
                                             RYH come up services under Digital Marketing Services.
                                                 <ul className='arrive_ul'>
-                                                    <li>
+                                                    <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>
                                                         SEO Services
                                                     </li>
-                                                    <li> 
+                                                    <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>                                                       
                                                         SEM Services
                                                     </li>
-                                                    <li>
+                                                    <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>   
                                                         SMM Services
                                                     </li>
-                                                    <li>    
+                                                    <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>                                                       
                                                         Branding Services
                                                     </li>
-                                                    <li>
+                                                    <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>   
                                                         Website Development
                                                     </li>
-                                                    <li>  
+                                                    <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>                                                         
                                                         Mobile App Development
                                                     </li>
