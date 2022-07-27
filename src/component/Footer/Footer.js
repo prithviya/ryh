@@ -21,14 +21,14 @@ function Footer() {
                             <div className='col-md-6'>
                                 <h4 className='text-white'>Email</h4>
                                 <p className='text-white'>
-                                    <a class="text-white" href="#">
+                                    <a class="text-white" href="mailto:ryh.digitalservices@gmail.com">
                                         <FaEnvelopeOpen/> ryh.digitalservices@gmail.com
                                     </a>
                                 </p>
                                 <h4 className='text-white'>Phone Number</h4>
                                 <p className='text-white'>
-                                    <a class="text-white" href="#">
-                                        <FaPhoneAlt/> +91 12345 67890
+                                    <a class="text-white" href="tel:+91 7558101666">
+                                        <FaPhoneAlt/> +91 75581 01666
                                     </a>
                                 </p>
                                 

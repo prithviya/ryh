@@ -13,7 +13,7 @@ import Getin from './component/Getin/Getin';
 import Testimonial from './component/Testimonial/Testimonial';
 import Footer from './component/Footer/Footer';
 import Client from './component/Client/Client';
-import './component/Navbar/Navbar.css';
+
 function App() {
   return (
     <div>

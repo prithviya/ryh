@@ -1,7 +1,7 @@
 export default
 {
     BANNER_SECTION: require("../images/banner.webp"),
-    BANNER_LOGO: require("../images/LOGO.webp"),
+    BANNER_LOGO: require("../images/logo.webp"),
     MENU_ICON: require("../images/menu.png"),
     WORKFLOW_SECTION: require("../images/web.webp"),
     CONTACT_SECTION: require("../images/contact.webp"),

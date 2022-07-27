@@ -1,9 +1,7 @@
 import React from 'react';
 import {useEffect} from 'react';
-import { FaArrowUp } from "react-icons/fa"; 
+import { FaArrowUp, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa"; 
 import Image from "../../constants/asset";
-import { FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
-import Navbar from '../Navbar/Navbar';
 
 function Banner() {
     useEffect(() => {
@@ -12,28 +10,66 @@ function Banner() {
       }, []);
     
   return (
-    <>
-    <Navbar />
     <div className='custom-sec-banner pb-5'>
         <div className='custom-sec-navbar '>
-            <nav className='container navbar navbar-expand-lg pt-0'>
-                <div className='collapse navbar-collapse mb-0'>
-                    <ul class="navbar-nav">
-                        <li class="nav-item p-2">
-                            <a className='text-white'>
-                                <FaEnvelopeOpen/> ryh.digitalservices@gmail.com
-                            </a>
+            <div className='container custom-sect-navbar' style={{height:'40px'}}>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div className='container'>                                                        
+                        <form class="form-inline">
+                            <div class="collapse navbar-collapse" id="navbarText">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active" id="cust-link-font">
+                                        <a class="nav-link text-white" href="mailto:ryh.digitalservices@gmail.com">
+                                            <FaEnvelopeOpen className=''/> 
+                                            <span className='ml-2'>
+                                                ryh.digitalservices@gmail.com
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item"  id="cust-link-font">
+                                        <a class="nav-link text-white" href="tel:+91 7558101666">
+                                            <FaPhoneAlt/>
+                                            <span className='ml-2'>
+                                                +91 75581 01666
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </form>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div className='container'>
+                <a class="navbar-brand text-white">
+                    <img src={ Image.BANNER_LOGO }/>
+                </a>   
+                                
+                <form class="form-inline">
+                    <a className='navbar-toggler' data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src= { Image.MENU_ICON}  style={{ height: 50, width: 50 }}/>
+                    </a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-white pl-3" href="#">Home </a>
                         </li>
-                        <li class="nav-item p-2">
-                            <a className='text-white'>
-                                <FaPhoneAlt/> +91 12345 67890
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="#">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Contact Us</a>
                         </li>
                     </ul>
-                </div>
-            </nav>
-        </div>
-            
+                </div>    
+                </form>
+            </div>
+        </nav>
         <div className='container custom-banner-content'>
             <div className='row'>
                 <div className='col-md-7'>
@@ -89,8 +125,6 @@ function Banner() {
             </button>
         </div>
     </div>
-    </>
-    
   )
 }
 
