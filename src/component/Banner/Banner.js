@@ -18,8 +18,7 @@ import { ReactNavbar } from "react-responsive-animate-navbar";
   return (
     <div className='custom-sec-banner pb-5'>
          
-       <div className='container'>
-            <ReactNavbar
+         <ReactNavbar
                 color="#191919"
                 image={[
                     {
@@ -57,7 +56,6 @@ import { ReactNavbar } from "react-responsive-animate-navbar";
                 ]}
                 sticky
             />
-       </div>
                 
         {/* <nav class="navbar navbar-expand-lg navbar-light">
             <div className='container'>
