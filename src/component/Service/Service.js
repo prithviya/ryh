@@ -18,7 +18,8 @@ function Service() {
         <Carousel breakPoints={breakPoints} showArrows={true} enableAutoPlay autoPlaySpeed={9000} >
           <Item className='mb-3 mt-4'>
             <div className='custom-border m-1'>
-                <h3 className='demo1'>WebSite Promotion(SEO)</h3>
+                <h6 className='demo1'>WebSite Promotion(SEO)</h6>
+                <p>
                 <ul className='custom-list'>
                     <li className='custom-list'>
                         <FaCheck className='custom-font-icon text-orange'/> 
@@ -61,6 +62,7 @@ function Service() {
                         Report Generation
                     </li>
                 </ul>
+                </p>
             </div>
           </Item>
           <Item className='mb-3 mt-4'>

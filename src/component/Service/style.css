@@ -28,9 +28,17 @@
 .custom-list
 {
     position: relative;
+    font-size: 0.9rem;
 }
 .custom-list .custom-font-icon
 {
     position: absolute;
     left: -40px;
+}
+.demo1
+{
+    font-size: 1.1rem;
+}
+.hHJTFD {
+    margin: 0 3px !important;
 }
