@@ -50,11 +50,7 @@ function Testimonial() {
                                             </div>
                                         </div>
                                     </div>
-                                    <ol class="carousel-indicators indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -98,11 +94,7 @@ function Testimonial() {
                                             </div>
                                         </div>
                                     </div>
-                                    <ol class="carousel-indicators indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -146,11 +138,7 @@ function Testimonial() {
                                             </div>
                                         </div>
                                     </div>
-                                    <ol class="carousel-indicators indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol>
+                                    
                                 </div>
                             </div>
                         </div>
