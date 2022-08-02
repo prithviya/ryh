@@ -16,7 +16,7 @@ export default function
                                 <div class="card border-0">
                                     <div class="card-body pt-5">
                                         <div class="user-content">
-                                            <h4 class="text-capitalize user-name text-justify">6 Reasons Why You Need Digital Marketing Services</h4>                                            
+                                            <h4 class="text-capitalize user-name">6 Reasons Why You Need Digital Marketing Services</h4>                                            
 
                                             <p class="mb-0 mt-3 custom-text">
                                                 Digital marketing became an irreplaceable element in modern business development. Marketing is the key to creating relationships with the end users, digitally doing that redefines the way of creating that relationship.
@@ -29,7 +29,7 @@ export default function
                                 <div class="card border-0">
                                     <div class="card-body pt-5">
                                         <div class="user-content">
-                                            <h4 class="text-capitalize user-name text-center">Rank You Higher Digital Marketing Strategy</h4>
+                                            <h4 class="text-capitalize user-name">Rank You Higher Digital Marketing Strategy</h4>
                                             <p class="mb-0 mt-3">
                                                 The following table attempts to outline the Digital Marketing program offered by Raise. A customized offering can be availed by the Client at any time. Raise offers a proven workflow and tested packages that best utilize digital marketing capabilities.
                                             </p>
@@ -41,7 +41,7 @@ export default function
                                 <div class="card shadow-sm border-0">
                                     <div class="card-body pt-5">
                                         <div class="user-content">
-                                            <h4 class="text-capitalize user-name text-right">What Comes In Our Digital Marketing Services</h4>                                            
+                                            <h4 class="text-capitalize user-name">What Comes In Our Digital Marketing Services</h4>                                            
                                             <p class="mb-0 mt-3">
                                             RYH come up services under Digital Marketing Services.
                                                 <ul className='arrive_ul'>

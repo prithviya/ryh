@@ -20,48 +20,48 @@ function Service() {
             <div className='custom-border m-1'>
                 <h6 className='demo1'>WebSite Promotion(SEO)</h6>
                 <p>
-                <ul className='custom-list'>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Audit
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Competitor Analysis
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Keyword Research
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Technical Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        On Page Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Off Page SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Local SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Traffic Analytics
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Content Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Report Generation
-                    </li>
-                </ul>
+                    <ul className='custom-list'>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Audit
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Monthly Keyword Action Plan
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            3 Indexed Keywords
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Quarterly Reporting
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            On Page Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Off Page SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            1 Local SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Traffic Analytics
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Content Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Page Limit 30
+                        </li>
+                    </ul>
                 </p>
             </div>
           </Item>
@@ -115,142 +115,142 @@ function Service() {
           <Item className='mb-3 mt-4'>
             <div className='custom-border m-1'>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
-                 <ul className='custom-list'>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Audit
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Competitor Analysis
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Keyword Research
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Technical Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        On Page Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Off Page SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Local SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Traffic Analytics
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Content Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Report Generation
-                    </li>
-                </ul>
+                <ul className='custom-list'>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Audit
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Monthly Keyword Action Plan
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            10 Indexed Keywords
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Quarterly Reporting
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            On Page Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Off Page SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            2-5 Local SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Traffic Analytics
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Content Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Page Limit 50
+                        </li>
+                    </ul>
             </div>
           </Item>
           <Item className='mb-3 mt-4'>
             <div className='custom-border m-1'>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                 <ul className='custom-list'>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Audit
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Competitor Analysis
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Keyword Research
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Technical Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        On Page Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Off Page SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Local SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Traffic Analytics
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Content Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Report Generation
-                    </li>
-                </ul>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Audit
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Monthly Keyword Action Plan
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            3 Indexed Keywords
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Quarterly Reporting
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            On Page Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Off Page SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            4 Local SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Traffic Analytics
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Content Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Page Limit 90
+                        </li>
+                    </ul>
             </div>
           </Item>
           <Item className='mb-3 mt-4'>
             <div className='custom-border m-2'>
                 <h3 className='demo1'>WebSite Promotion(SEO)</h3>
                 <ul className='custom-list'>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Audit
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Competitor Analysis
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Keyword Research
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Technical Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        On Page Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Off Page SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Local SEO
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Website Traffic Analytics
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Content Optimization
-                    </li>
-                    <li className='custom-list'>
-                        <FaCheck className='custom-font-icon text-orange'/> 
-                        Report Generation
-                    </li>
-                </ul>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Audit
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Monthly Keyword Action Plan
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            3 Indexed Keywords
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Quarterly Reporting
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            On Page Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Off Page SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            1 Local SEO
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Website Traffic Analytics
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Content Optimization
+                        </li>
+                        <li className='custom-list'>
+                            <FaCheck className='custom-font-icon text-orange'/> 
+                            Page Limit 30
+                        </li>
+                    </ul>
             </div>
           </Item>
         </Carousel>

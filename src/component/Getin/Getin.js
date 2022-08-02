@@ -11,7 +11,7 @@ function Getin() {
                         <h1 className='text-white text-center'>Contact Us</h1>
                     </div>
                     <div className='col-md-7 p-4    '>
-                        <h1 className='text-justify text-white'>We can solve
+                        <h1 className='text-white'>We can solve
 your business problems</h1>
                         <img src={ Images.GETIN_SECTION } style={{ width:'100%' }}/>
                     </div>

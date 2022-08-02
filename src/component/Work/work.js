@@ -99,7 +99,7 @@ export default function work() {
                                     <div class="card-body">
                                         <span class="card-title text-center">Website Development</span>
                                         <p class="card-text text-justify mb-4">
-                                        Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it.
+                                        We design websites that are creative, mobile responsive, lag-free, eye-catching, and SEO friendly. We also provide custom mobile web design services in Coimbatore at an affordable cost. 
                                         </p>
                                     </div>
                                 </a>
@@ -116,7 +116,7 @@ export default function work() {
                                     <div class="card-body">
                                         <span class="card-title text-center">App Development</span>
                                         <p class="card-text text-justify mb-4">
-                                        Lorem Ipsum is simply a dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it.
+                                        To create a fast and smooth app for any platform, we also deliver products with outsourcing app development model. This model gives a reasonable solution to control the budget and other recourses.
                                         </p>
                                     </div>
                                 </a>

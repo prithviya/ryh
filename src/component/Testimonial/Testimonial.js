@@ -44,9 +44,9 @@ function Testimonial() {
                                         <div class="carousel-item active">
                                             <div class="quote-wrapper">
                                                 <p>
-                                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                                                I am absolutely satisfied with the project we have done with The RYH team. Professional developers, decent project manager and passioned marketing team
                                                 </p>
-                                                <h3>peter lee</h3>
+                                                <h3>Prem Charan</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -88,9 +88,9 @@ function Testimonial() {
                                         <div class="carousel-item active">
                                             <div class="quote-wrapper">
                                                 <p>
-                                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                                                Working with The Rank you Higher is a real pleasure.All their team members are friendly, professional and detail-oriented.A real treat!
                                                 </p>
-                                                <h3>peter lee</h3>
+                                                <h3>SenthilKumar</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -132,9 +132,9 @@ function Testimonial() {
                                         <div class="carousel-item active">
                                             <div class="quote-wrapper">
                                                 <p>
-                                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+                                                We chose The Rank you Higher to become our official partner and developer of our mobile strategy due to their professional and expert approach to work. It takes a lot of dedication and effort to work with company like ours. Guys suggested the best solutions for our project and successfully implemented all our ideas.
                                                 </p>
-                                                <h3>peter lee</h3>
+                                                <h3>Pradeep</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -145,8 +145,7 @@ function Testimonial() {
                     </div>
                 </section>
             </Item> 
-        </Carousel>
-       
+        </Carousel>       
     </div>
   )
 }

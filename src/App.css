@@ -18,7 +18,11 @@
 }
 
 /* banner */
-
+.styles_navLinks__38tON a {
+  letter-spacing: 0px !important;
+  font-size: 16px !important;
+  text-transform: capitalize !important;
+}
 .styles_navSocial__3JBh_ {
   width: 0vw !important;
 }
