@@ -8,13 +8,13 @@ function contact() {
             <div className='container'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h1 className='text-white text-center'>Get In Touch</h1>
+                        <h1 className='text-white text-center'>Get In <span>Touch</span></h1>
                     </div>
                     <div className='col-md-5'>
                         <form id="form">     
                             <h4 className='pb-2 pt-2'>
                             Leave a request
-and a specialist will contact
+and our specialist will contact
 you within 15 minutes
                             </h4>               
                             <div class="input-box active">

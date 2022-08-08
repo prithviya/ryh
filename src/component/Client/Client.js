@@ -3,41 +3,53 @@ import Images from '../../constants/asset';
 
 function Client() {
   return (
-    <div>
-        <div className='pt-5 pb-5 custom-sect-client container'>
-            <h1 className='text-center'> 
-                Our Happy Clients
+    <div className='container'>
+        <div className='pt-5 pb-5 custom-sect-client cust-content-container'>
+            <h1 className='text-center mb-4'> 
+               Trusted
+               <span> by leading brands </span>
+               from <br/>around the world
             </h1>
-            <div className='row text-center'>
-                <div className='col-md-2 col-6 cust-card-border'>
-                    <div className='custom-img'>
-                        <img src={ Images.ANGLOFONE } style={{ width:'100%', height:'100%' }}/>
-                    </div>                    
+            <div className='brand-boxes'>
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.AIC } width='100%'/>
+                    </figures>
                 </div>
-                <div className='col-md-2 col-6 cust-card-border'>
-                    <div className='custom-img'>
-                        <img src={ Images.AIC } style={{ width:'100%', height:'100%' }}/>
-                    </div>                    
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.ANGLOFONE }/>
+                    </figures>
                 </div>
-                <div className='col-md-2 col-6 cust-card-border'>
-                    <div className='custom-img'>
-                        <img src={ Images.FLUID } style={{ width:'100%', height:'100%' }}/>
-                    </div>                    
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.FLUID }/>
+                    </figures>
                 </div>
-                <div className='col-md-2 col-6 cust-card-border'>
-                    <div className='custom-img'>
-                        <img src={ Images.SHELTERS } style={{ width:'100%', height:'100%' }}/>
-                    </div>                    
-                </div>                
-                <div className='col-md-2 col-6 cust-card-border'>
-                    <div className='custom-img'>
-                        <img src={ Images.SR} style={{ width:'100%', height:'100%' }}/>
-                    </div>                    
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.RGI }/>
+                    </figures>
                 </div>
-                <div className='col-md-2 col-6 cust-card-border'>
-                    <div className='custom-img'>
-                        <img src={ Images.RGI } style={{ width:'100%', height:'100%' }}/>
-                    </div>                    
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.SHELTERS }/>
+                    </figures>
+                </div>
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.SR }/>
+                    </figures>
+                </div>
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.DHANVANTRI }/>
+                    </figures>
+                </div>
+                <div className='brand-box'>
+                    <figures>
+                        <img src={ Images.MCET }/>
+                    </figures>
                 </div>
             </div>
         </div>

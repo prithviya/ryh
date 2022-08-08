@@ -11,139 +11,99 @@ function Testimonial() {
         { width: 1200, itemsToShow: 1 },
     ];
   return (
-    <div className='pb-5'>
+    <div className='cust-work-section pb-5'>
+        <h1 className='text-center pt-5'>What <span>Our Customer </span>Say</h1>
         <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={9999} >
-            <Item className=''>
-                <section class="testimonial">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block">
-                                <ol class="carousel-indicators tabs">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                </ol>
-                            </div>
-                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                                <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-                                    <h3>WHAT OUR CLIENTS SAY</h3>
-                                    <h1>TESTIMONIALS</h1>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="quote-wrapper">
-                                                <p>
-                                                I am absolutely satisfied with the project we have done with The RYH team. Professional developers, decent project manager and passioned marketing team
-                                                </p>
-                                                <h3>Prem Charan</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+            <Item className='custom-body'>
+                <div className='row'>
+                    <div class="col-md-6">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
                                 </div>
+                                <p class="description">
+                                I am absolutely satisfied with the project we have done with RYH team. Professional developers, decent project manager and passioned marketing team
+                                </p>
+                                <h3 class="title">Naveen</h3>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div class="col-md-6">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
+                                </div>
+                                <p class="description">
+                                Working with Rank you Higher team has been a real most pleasant experience! .All their team members are friendly, professional and detail-oriented.A real treat!
+                                </p>
+                                <h3 class="title">Jenifer</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
             </Item> 
             <Item className=''>
-                <section class="testimonial">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block">
-                                <ol class="carousel-indicators tabs">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                </ol>
-                            </div>
-                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                                <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-                                    <h3>WHAT OUR CLIENTS SAY</h3>
-                                    <h1>TESTIMONIALS</h1>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="quote-wrapper">
-                                                <p>
-                                                Working with The Rank you Higher is a real pleasure.All their team members are friendly, professional and detail-oriented.A real treat!
-                                                </p>
-                                                <h3>SenthilKumar</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                <div className='row'>
+                    <div class="col-md-6">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
                                 </div>
+                                <p class="description">
+                                Since working with RYH our lead quality and profitability have skyrocketed! I have also been impressed by the quality of services and constant communication and tracking RHY offers. 
+                                </p>
+                                <h3 class="title">Mohan</h3>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div class="col-md-6">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
+                                </div>
+                                <p class="description">
+                                RYH have provided great services and strategies for accelerating our business growth. Most importantly, they are willing and able to adapt our marketing strategy to help us succeed in our industry. 
+                                </p>
+                                <h3 class="title">Prithviya</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </Item> 
             <Item className=''>
-                <section class="testimonial">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block">
-                                <ol class="carousel-indicators tabs">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-01-179x179.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-02-306x306.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                                        <figure>
-                                            <img src="https://livedemo00.template-help.com/wt_62267_v8/prod-20823-one-service/images/testimonials-03-179x179.png" class="img-fluid" alt=""/>
-                                        </figure>
-                                    </li>
-                                </ol>
-                            </div>
-                            <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                                <div id="carouselExampleIndicators" data-interval="false" class="carousel slide" data-ride="carousel">
-                                    <h3>WHAT OUR CLIENTS SAY</h3>
-                                    <h1>TESTIMONIALS</h1>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <div class="quote-wrapper">
-                                                <p>
-                                                We chose The Rank you Higher to become our official partner and developer of our mobile strategy due to their professional and expert approach to work. It takes a lot of dedication and effort to work with company like ours. Guys suggested the best solutions for our project and successfully implemented all our ideas.
-                                                </p>
-                                                <h3>Pradeep</h3>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    
+                <div className='row'>
+                <div class="col-md-6">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
                                 </div>
+                                <p class="description">
+                                We chose The Rank you Higher to become our official partner and developer of our mobile strategy due to their professional and expert approach to work. It takes a lot of dedication and effort to work with company like ours.
+                                </p>
+                                <h3 class="title">Shree</h3>
                             </div>
                         </div>
                     </div>
-                </section>
+                    
+                    <div class="col-md-6">
+                        <div id="testimonial-slider" class="owl-carousel">
+                            <div class="testimonial">
+                                <div class="pic">
+                                    <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
+                                </div>
+                                <p class="description">
+                                RYH has proven to be an integral marketing partner for our team. They handled our website revamp, as well as have continued to work with us to optimize our SEO, create campaigns, and evaluate our lead volume. 
+                                </p>
+                                <h3 class="title">Banumathi</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </Item> 
         </Carousel>       
     </div>

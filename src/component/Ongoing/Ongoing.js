@@ -16,77 +16,27 @@ function Ongoing() {
     <div>
         <div className='cust-ongoing-section pt-5 pb-5'>
             <div className='container'>
-                <h1 className='text-center p-3 text-white'>On Going Projects</h1>
+                <h1 className='text-center p-3 text-white'>Our <span>Projects</span></h1>
                 <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={8000} >
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
-                            <div className='col-md-7 p-3'>
+                            <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
                                         <img src={ Images.FLUID }/>
                                     </div>
                                     <div className='row'>
-                                        <div className='col-md-7'>
+                                        <div className='col-md-12'>
                                             <div className='mt-4'>                                                
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit magna aliqua.
-                                                </p>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing aliqua.
+                                                Fluid Pumps and Systems is the Authorized Distributor of Grundfos Pumps in Coimbatore, Tirupur, Erode, Salem, Namakkal and Nilgiris. We specialize in Pumps for Domestic, RO Plants, ETP, STP, ZLD, Commercial and Industrial Applications.
                                                 </p>
                                             </div>
-                                        </div>
-                                        <div class="col-md-5 my-2">
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <h5 class="mb-0">
-                                                            Workable Status
-                                                        </h5>
-                                                    </div>            
-                                                </div>
-                                            </div>
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>80%</span>
-                                                                SEO
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div>
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>50%</span>
-                                                                SMM
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div> 
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>30%</span>
-                                                                SMO
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div>                                    
-                                        </div>                                 
+                                        </div>                                
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-5 p-3 custom-pro-pic'>
+                            <div className='col-md-6 p-3 custom-pro-pic'>
                                 <div className='custom-bg pic'>
                                     <img src={ Images.FLUID_WEB } alt="Fluid Website"/>
                                 </div>
@@ -95,73 +45,23 @@ function Ongoing() {
                     </Item>
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
-                            <div className='col-md-7 p-3'>
+                            <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
                                         <img src={ Images.AIC }/>
                                     </div>
                                     <div className='row'>
-                                        <div className='col-md-7'>
+                                        <div className='col-md-12'>
                                             <div className='mt-4'>                                                
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit magna aliqua.
-                                                </p>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing aliqua.
+                                                AIC Raise India's first Startup Incubation centre for startups and enterprises  focusing on the United Nations Sustainable Development Goals creating AIC RAISE has hosted the event “Tamilnadu Startup Growth Conclave”.
                                                 </p>
                                             </div>
-                                        </div>
-                                        <div class="col-md-5 my-2">
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <h5 class="mb-0">
-                                                            Workable Status
-                                                        </h5>
-                                                    </div>            
-                                                </div>
-                                            </div>
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>80%</span>
-                                                                SEO
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div>
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>50%</span>
-                                                                SMM
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div> 
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>30%</span>
-                                                                SMO
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div>                                    
-                                        </div>                                 
+                                        </div>                                                                        
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-5 p-3  custom-pro-pic'>
+                            <div className='col-md-6 p-3  custom-pro-pic'>
                                 <div className='custom-bg pic'>
                                     <img src={ Images.AIC_WEB } alt="Aic Raise Website"/>
                                 </div>
@@ -170,73 +70,25 @@ function Ongoing() {
                     </Item>
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
-                            <div className='col-md-7 p-3'>
+                            <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
                                         <img src={ Images.SHELTERS }/>
                                     </div>
                                     <div className='row'>
-                                        <div className='col-md-7'>
+                                        <div className='col-md-12'>
                                             <div className='mt-4'>                                                
                                                 <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit magna aliqua.
-                                                </p>
-                                                <p>
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing aliqua.
+                                                    
+With over a decade of experience in the field of construction of IT Parks, Commercial Buildings,Apartment, Hotels, Colleges and School, Rathinam Shelters stepping into creating affordable luxury homes in Coimbatore city. 
                                                 </p>
                                             </div>
                                         </div>
-                                        <div class="col-md-5 my-2">
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <h5 class="mb-0">
-                                                            Workable Status
-                                                        </h5>
-                                                    </div>            
-                                                </div>
-                                            </div>
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>80%</span>
-                                                                SEO
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div>
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>50%</span>
-                                                                SMM
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div> 
-                                            <div class="ins-1">
-                                                <div class="align-items-center">
-                                                    <div class="title-box">
-                                                        <p class="mb-0">
-                                                            <p class="align-items-center mb-0">
-                                                            <i class="fa fa-arrow-up"></i><span>30%</span>
-                                                                SMO
-                                                            </p>
-                                                        </p>
-                                                    </div>            
-                                                </div>
-                                            </div>                                    
-                                        </div>                                 
+                                                                       
                                     </div>
                                 </div>
                             </div>
-                            <div className='col-md-5 p-3 custom-pro-pic'>
+                            <div className='col-md-6 p-3 custom-pro-pic'>
                                 <div className='custom-bg pic'>
                                     <img src={ Images.RTM_WEB } alt="Rathinam Website"/>
                                 </div>

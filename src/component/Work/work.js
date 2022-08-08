@@ -8,7 +8,7 @@ export default function work() {
     <div>
         <div className='cust-work-section pt-5 pb-5'>
             <h1 className='text-center'>
-                Our Digital Marketing Services
+                Our <span>Digital Marketing</span> Services
             </h1>
             <p className='text-center p-2'>
                 We aim at creating brand awareness, initiate and encourage consumer <br/>interactions and also look after the reputation management
@@ -28,7 +28,7 @@ export default function work() {
                                     <div class="card-body">
                                         <span class="card-title text-center">SEO</span>
                                         <p class="card-text text-justify mb-4">
-                                        An average user sees more than 1000 ads every day, with the help of good SEO strategists we optimize Search engines and amplify them across various channels to attain higher visibility and receive a steady stream of traffic searching making your brand.
+                                        An average user sees more than 1000 ads every day. With the help of good SEO strategists we optimize Search engines and amplify them across various channels to attain higher visibility and receive a steady stream of traffic searching making your brand.
                                         </p>
                                     </div>
                                 </a>
@@ -116,7 +116,7 @@ export default function work() {
                                     <div class="card-body">
                                         <span class="card-title text-center">App Development</span>
                                         <p class="card-text text-justify mb-4">
-                                        To create a fast and smooth app for any platform, we also deliver products with outsourcing app development model. This model gives a reasonable solution to control the budget and other recourses.
+                                        To create a fast and smooth app for any platform, we also deliver products with outsourcing app development model. This model gives a reasonable solution to control the budget and other resourses.
                                         </p>
                                     </div>
                                 </a>

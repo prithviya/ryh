@@ -7,7 +7,7 @@ export default function
   return (
     <div className='cust-sect-arrive pt-5 pb-5'>
         <div className='container'>
-            <h1 className='text-white'>How do we arrive at a result?</h1>
+            <h1 className='text-white'>How do we arrive<span> at a result?</span></h1>
             <main>
                 <section id="cards">
                     <div class="container py-2">
@@ -16,10 +16,10 @@ export default function
                                 <div class="card border-0">
                                     <div class="card-body pt-5">
                                         <div class="user-content">
-                                            <h4 class="text-capitalize user-name">6 Reasons Why You Need Digital Marketing Services</h4>                                            
+                                            <h4 class="text-capitalize user-name">Reasons Why You Need Digital Marketing Services</h4>                                            
 
                                             <p class="mb-0 mt-3 custom-text">
-                                                Digital marketing became an irreplaceable element in modern business development. Marketing is the key to creating relationships with the end users, digitally doing that redefines the way of creating that relationship.
+                                                Digital Marketing become an irreplaceable element in modern business development. Marketing is the key to creating relationships with the end users, digitally redefining the nuances of Digital Marketing Services.
                                             </p>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@ export default function
                                         <div class="user-content">
                                             <h4 class="text-capitalize user-name">What Comes In Our Digital Marketing Services</h4>                                            
                                             <p class="mb-0 mt-3">
-                                            RYH come up services under Digital Marketing Services.
+                                            RYH Services comes under Digital Marketing Services.
                                                 <ul className='arrive_ul'>
                                                     <li className='custom-list'>
                                                         <FaCheck className='custom-font-icon text-orange'/>

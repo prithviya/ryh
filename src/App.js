@@ -14,6 +14,7 @@ import Testimonial from './component/Testimonial/Testimonial';
 import Footer from './component/Footer/Footer';
 import Client from './component/Client/Client';
 import Header from './component/Header/Header';
+import Team from './component/Team/Team';
 
 function App() {
   return (
@@ -25,11 +26,11 @@ function App() {
           <Arrive/>          
           <Service/>
           <Contact/>
-          <Work/>         
-          <Getin/>
-          <Testimonial/>
-          <Ongoing/>
-          
+          <Work/> 
+          <Team/>               
+          <Testimonial/>          
+          <Ongoing/> 
+          <Getin/>         
           <Client/>
           <Footer/>
           <Routes>

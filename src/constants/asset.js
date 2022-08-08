@@ -1,17 +1,20 @@
 export default
 {
     BANNER_SECTION: require("../images/banner.webp"),
-    BANNER_LOGO: require("../images/logo.webp"),
+    BANNER_LOGO: require("../images/logo.png"),
     MENU_ICON: require("../images/menu.png"),
     WORKFLOW_SECTION: require("../images/web.webp"),
     CONTACT_SECTION: require("../images/contact.webp"),
     GETIN_SECTION: require("../images/getin.webp"),
+    // client 
     ANGLOFONE: require("../images/logo/anglo.webp"),
     AIC: require("../images/logo/aic.webp"),
     FLUID: require("../images/logo/fluid.webp"),
     RGI: require("../images/logo/rgi.webp"),
     SHELTERS: require("../images/logo/shelters.webp"),
     SR: require("../images/logo/sr.webp"),
+    MCET: require("../images/logo/mcet.webp"),
+    DHANVANTRI: require("../images/logo/dhanvantri.webp"),
     // Website
     FLUID_WEB: require("../images/fluid-web.webp"),
     AIC_WEB: require("../images/aic-web.webp"),

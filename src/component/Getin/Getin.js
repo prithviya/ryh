@@ -4,14 +4,14 @@ import Images from '../../constants/asset';
 function Getin() {
   return (
     <div>
-         <div className='cust-cont-section pt-5 pb-5'>
+         <div className='cust-conts-section pt-5 pb-5'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h1 className='text-white text-center'>Contact Us</h1>
+                        <h1 className='text-center'>Our <span>Contact</span> Us</h1>
                     </div>
                     <div className='col-md-7 p-4    '>
-                        <h1 className='text-white'>We can solve
+                        <h1 className=''>We can solve
 your business problems</h1>
                         <img src={ Images.GETIN_SECTION } style={{ width:'100%' }}/>
                     </div>
@@ -19,7 +19,7 @@ your business problems</h1>
                         <form id="form">     
                             <h4 className='pb-2 pt-2'>
                             Leave a request
-and a specialist will contact
+and our specialist will contact
 you within 15 minutes
                             </h4>               
                             <div class="input-box active">

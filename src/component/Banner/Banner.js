@@ -4,7 +4,8 @@ import { FaArrowUp, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
 import Image from "../../constants/asset";
 import { ReactNavbar } from "react-responsive-animate-navbar";
 import Logo from '../../images/logo.webp';
-
+import CountUp from 'react-countup';
+        
     const Banner= () => {
     const Home = () => <h1>home</h1>;
     const Articles = () => <h1>Articles</h1>;
@@ -24,64 +25,16 @@ import Logo from '../../images/logo.webp';
                 logo="logo.webp"
                 menu={[
                 { name: "HOME", to: "/", component: Home },
-                { name: "ABOUT US", to: "/articles", component: About },
-                { name: "OUR SERVICES", to: "/about", component: About },
+                { name: "ABOUT US", to: "/about", component: About },
+                { name: "OUR TEAM", to: "/about", component: About },
+                { name: "OUR SERVICES", to: "/services", component: About },
+
                 { name: "CONTACT US", to: "/contact" },
                 ]}
                 social={[
-                //   {
-                //     name: "Email",
-                //     url: "https://www.linkedin.com/in/nazeh-taha/",
-                //     icon: ["fab", "linkedin-in"],
-                //   },
-                //   {
-                //     name: "Facebook",
-                //     url: "https://www.facebook.com/nazeh200/",
-                //     icon: ["fab", "facebook-f"],
-                //   },
-                //   {
-                //     name: "Instagram",
-                //     url: "https://www.instagram.com/nazeh_taha/",
-                //     icon: ["fab", "instagram"],
-                //   },
-                //   {
-                //     name: "Twitter",
-                //     url: "http://nazehtaha.herokuapp.com/",
-                //     icon: ["fab", "twitter"],
-                //   },
                 ]}
                 sticky
             />
-                
-        {/* <nav class="navbar navbar-expand-lg navbar-light">
-            <div className='container'>
-                <a class="navbar-brand text-white">
-                    <img src={ Image.BANNER_LOGO }/>
-                </a>   
-                                
-                <form class="form-inline">
-                    <a className='navbar-toggler' data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                        <img src= { Image.MENU_ICON}  style={{ height: 50, width: 50 }}/>
-                    </a>
-                <div class="collapse navbar-collapse" id="navbarText">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link text-white pl-3" href="#">Home </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link text-white" href="#">Our Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>    
-                </form>
-            </div>
-        </nav> */}
         <div className='container custom-banner-content'>
             <div className='row'>
                 <div className='col-md-7'>
@@ -99,17 +52,13 @@ import Logo from '../../images/logo.webp';
                 <div className='col-md-5'>
                 </div>
                 <div className='row custom-counter-content'>
-                    <div className='col-md-2 col-4 text-center'>
-                        <h1 className='text-orange'>20+</h1>
+                    <div className='col-md-3 col-4 text-center'>
+                        <h1 className='text-orange'><CountUp start={0} end={10} delay={1} />+</h1>
                         <h3 className='text-white'>Client</h3>
                     </div>
-                    <div className='col-md-2 col-4 text-center'>
-                        <h1 className='text-orange'>10+</h1>
+                    <div className='col-md-3 col-4 text-center'>
+                    <h1 className='text-orange'><CountUp start={0} end={15} delay={1} />+</h1>
                         <h3 className='text-white'>Project</h3>
-                    </div>
-                    <div className='col-md-2 col-4 text-center'>
-                        <h1 className='text-orange'>20+</h1>
-                        <h3 className='text-white'>Client</h3>
                     </div>
                 </div>
             </div>
