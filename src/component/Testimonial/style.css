@@ -20,6 +20,15 @@
   overflow: hidden;
   position: relative;
 }
+@media(max-width:480px)
+{
+  .testimonial{
+    padding: 30px 30px 30px 130px;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+}
 .testimonial:before{
   content: "";
   position: absolute;

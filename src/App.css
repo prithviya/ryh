@@ -16,7 +16,7 @@
   font-size: 1.2rem;
   margin: 5px;
 }
-.cust-content-container h1 span, .cust-sect-arrive h1 span, .custom-sect-client h1 span, .cust-cont-section h1 span, .cust-cont-section h1 span, .cust-ongoing-section h1 span, .cust-sect-service h1 span, .cust-team-section h1 span, .cust-work-section h1 span
+.cust-content-container h1 span, .cust-sect-arrive h1 span, .custom-sect-client h1 span, .cust-cont-section h1 span, .cust-conts-section h1 span, .cust-ongoing-section h1 span, .cust-sect-service h1 span, .cust-team-section h1 span, .cust-work-section h1 span
 {
     color: #d43b04;
     font-family: 'Montserrat', sans-serif; 
@@ -424,7 +424,7 @@ input {
 {
   background: linear-gradient(to right, #3b3f42 0%, #4b4c4d 100%);
 }
-.cust-price-section h1, .cust-cont-section h1, .cust-ser-section h1, .cust-vision-section h1, .cust-content-container h1, .cust-sect-service h1, .cust-sect-arrive h1, .cust-work-section h1, .cust-ongoing-section h1, .custom-sect-client h1, .cust-team-section h1
+.cust-price-section h1, .cust-cont-section h1, .cust-ser-section h1, .cust-vision-section h1, .cust-content-container h1, .cust-sect-service h1, .cust-sect-arrive h1, .cust-work-section h1, .cust-ongoing-section h1, .custom-sect-client h1, .cust-team-section h1, .cust-conts-section h1
 {
   font-family: 'Montserrat', sans-serif; 
   text-align: center;
@@ -727,36 +727,31 @@ hr
 #floating-share-buttons a.share-youtube {
   background-color: #FF0000 ;
 }
-/*
-  Breakpoint is 1024px. You change this value to adapt it to your design
-*/
-
-/* Desktop */ 
-@media (min-width: 600px) {
-  ul#floating-share-buttons {    
-    position: fixed;
-    top: 50%;
-    transform: translateY(-50%);
-    min-height: 100px;
-    padding: 0px;
-  }
-  .media-mob-view
+@media(max-width:480px) 
+{
+  .custom-mob-footer .custom-footer, .custom-mob-footer
   {
-    display: none;
+    padding: 10px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
   }
-  ul#floating-share-buttons a {
-    width:3rem;
-    height:3rem;
+}
+@media(max-width:480px) 
+{
+  #custom-logo
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    display: inline-flex;
-    justify-content: center;    
-    transition: width 0.5s;
   }
-  ul#floating-share-buttons a:hover {
-    width:4.5rem;
-  }
-  #floating-share-buttons a.share-whatsapp {
-    display:none;
+}
+@media(min-width:480px) 
+{
+  .custom-mob-footer .custom-footer
+  {
+    padding: 3rem !important;
   }
 }
 

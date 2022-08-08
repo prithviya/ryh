@@ -13,8 +13,8 @@ function Testimonial() {
   return (
     <div className='cust-work-section pb-5'>
         <h1 className='text-center pt-5'>What <span>Our Customer </span>Say</h1>
-        <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={9999} >
-            <Item className='custom-body'>
+        <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={9999} >        
+            <Item className=''>
                 <div className='row'>
                     <div class="col-md-6">
                         <div id="testimonial-slider" class="owl-carousel">
@@ -23,7 +23,7 @@ function Testimonial() {
                                     <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
                                 </div>
                                 <p class="description">
-                                I am absolutely satisfied with the project we have done with RYH team. Professional developers, decent project manager and passioned marketing team
+                                I am absolutely satisfied with the project we have done with Rank You Higher team. The Professional developers, Creative Designer decent project manager and passioned marketing team
                                 </p>
                                 <h3 class="title">Naveen</h3>
                             </div>
@@ -42,8 +42,8 @@ function Testimonial() {
                             </div>
                         </div>
                     </div>
-                </div> 
-            </Item> 
+                </div>
+            </Item>
             <Item className=''>
                 <div className='row'>
                     <div class="col-md-6">

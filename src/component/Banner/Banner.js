@@ -76,10 +76,12 @@ import CountUp from 'react-countup';
                 fontSize: '20px',
                 bottom: '40px',
                 right: '40px',
-                backgroundColor: 'rgb(212, 59, 4)',
+                background: 'linear-gradient(19deg, #4a4c4d 10%, #d43b04 100%)',
+                // backgroundColor: 'rgb(212, 59, 4)',
                 color: '#fff',
                 textAlign: 'center',
                 zIndex: '9999',
+                borderRadius: '28% 100% 84% 47% / 43% 73% 47% 78%',
                 }}
             >
                 <FaArrowUp/>

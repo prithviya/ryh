@@ -7,14 +7,14 @@ function Footer() {
     <div>
          <div className='pt-5'>
             <div className='container'>
-                <div className='row' style={{marginBottom: '-5%'}}>
+                <div className='row custom-mob-footer' style={{marginBottom: '-5%'}}>
                     <div className='col-md-4 custom-footer p-5'>
-                    <img className='custm-align-center' src="https://img.icons8.com/pastel-glyph/64/d43b04/worldwide-location--v1.png"/>
+                        <img className='custm-align-center' src="https://img.icons8.com/pastel-glyph/64/d43b04/worldwide-location--v1.png"/>
                         <p className='text-white'>Rathinam Techzone Campus,</p>
                         <p className='text-white'>Eachanari.</p>
                     </div>
                     <div className='col-md-4 custom-footer p-5'>
-                    <img src="https://img.icons8.com/ios-glyphs/64/d43b04/new-post.png"/>
+                        <img src="https://img.icons8.com/ios-glyphs/64/d43b04/new-post.png"/>
                         <p className='text-white cust-decoration'>
                             <a class="text-white cust-decoration" href="mailto:ryh.digitalservices@gmail.com">
                                 ryh.digitalservices@gmail.com
@@ -22,7 +22,7 @@ function Footer() {
                         </p>
                     </div>
                     <div className='col-md-4 custom-footer p-5'>
-                    <img src="https://img.icons8.com/sf-regular-filled/64/d43b04/phone.png"/>
+                        <img src="https://img.icons8.com/sf-regular-filled/64/d43b04/phone.png"/>
                         <p className='text-white'>
                             <a class="text-white cust-decoration" href="tel:+91 7558101666">
                                 +91 75581 01666
@@ -33,8 +33,8 @@ function Footer() {
             </div> 
             <div className='custom-footer'>
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col-md-4'>
+                    <div className='row custom-mob-footer'>
+                        <div className='col-md-4' id='custom-logo'>
                             <img src={ Images.BANNER_LOGO } className='custom-logo'/>
                             <h5 className='text-white mt-3'>Follow Us</h5>
                             <div class="rounded-social-buttons">
@@ -55,7 +55,7 @@ function Footer() {
                                 </a>
                             </div> 
                         </div>
-                        <div className='col-md-4'>
+                        <div className='col-md-4' id='custom-logo'>
                             <h4 className='text-white mt-3'>Quick Link</h4>
                             <ul className='cust-footerlink'>
                                 <li className='footer-list'>
@@ -72,8 +72,8 @@ function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className='col-md-3'>
-                            <h4 className='text-white MT-3'>Services</h4>
+                        <div className='col-md-3' id='custom-logo'>
+                            <h4 className='text-white mt-3'>Services</h4>
                             <ul className='cust-footerlink'>
                                 <li className='footer-list'>
                                     <a className='text-white'>SEM</a>

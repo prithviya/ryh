@@ -17,7 +17,7 @@ your business problems</h1>
                     </div>
                     <div className='col-md-5'>
                         <form id="form">     
-                            <h4 className='pb-2 pt-2'>
+                            <h4 className='pb-2'>
                             Leave a request
 and our specialist will contact
 you within 15 minutes
