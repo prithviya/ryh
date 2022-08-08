@@ -6,7 +6,7 @@ function Client() {
     <div className='container'>
         <div className='pt-5 pb-5 custom-sect-client cust-content-container'>
             <h1 className='text-center mb-4'> 
-               Trusted
+              Few Trusted
                <span> by leading brands </span>
                from <br/>around the world
             </h1>

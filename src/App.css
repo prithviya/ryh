@@ -43,10 +43,10 @@
 }
 @keyframes shrink {
   0% {
-    background-size: 105% 105%;
+    background-size: 100% 100%;
   }
   100% {
-    background-size: 100% 100%;
+    background-size: 102% 102%;
   }
 }
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item

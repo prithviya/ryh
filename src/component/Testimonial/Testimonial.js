@@ -36,7 +36,7 @@ function Testimonial() {
                                     <img src="https://images.pexels.com/photos/704955/pexels-photo-704955.jpeg?w=940&h=650&auto=compress&cs=tinysrgb"/>
                                 </div>
                                 <p class="description">
-                                Working with Rank you Higher team has been a real most pleasant experience! .All their team members are friendly, professional and detail-oriented.A real treat!
+                                Working with Rank you Higher team has been a pleasure to work with, very polite, very understanding. All their team members are friendly, professional and detail-oriented. A real treat!
                                 </p>
                                 <h3 class="title">Jenifer</h3>
                             </div>

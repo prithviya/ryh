@@ -7,7 +7,7 @@ export default function
   return (
     <div className='cust-sect-arrive pt-5 pb-5'>
         <div className='container'>
-            <h1 className='text-white'>How do we arrive<span> at a result?</span></h1>
+            <h1 className='text-white'>Where do <span>we arrive at</span> a result?</h1>
             <main>
                 <section id="cards">
                     <div class="container py-2">
@@ -31,7 +31,7 @@ export default function
                                         <div class="user-content">
                                             <h4 class="text-capitalize user-name">Rank You Higher Digital Marketing Strategy</h4>
                                             <p class="mb-0 mt-3">
-                                                The following table attempts to outline the Digital Marketing program offered by Raise. A customized offering can be availed by the Client at any time. Raise offers a proven workflow and tested packages that best utilize digital marketing capabilities.
+                                                The attempts to outline the Digital Marketing program offered by Raise. A customized offering can be availed by the Client at any time. Raise offers a proven workflow and tested packages that best utilize digital marketing capabilities.
                                             </p>
                                         </div>
                                     </div>
