@@ -15,6 +15,11 @@ export default
     SR: require("../images/logo/sr.webp"),
     MCET: require("../images/logo/mcet.webp"),
     DHANVANTRI: require("../images/logo/dhanvantri.webp"),
+    KARMA: require("../images/logo/karma.webp"),
+    RPSC: require("../images/logo/rps.webp"),
+    HAD: require("../images/logo/hadid.webp"),
+    REGEN: require("../images/logo/regenf.webp"),
+    PEPER: require("../images/logo/pepper.png"),
     // Website
     FLUID_WEB: require("../images/fluid-web.webp"),
     AIC_WEB: require("../images/aic-web.webp"),
@@ -26,7 +31,7 @@ export default
     REGENF: require("../images/regen8.webp"),
     HADID: require("../images/hadid.webp"),
     RPS: require("../images/rps.webp"),
-    MCET: require("../images/mcet.webp"),
+    MET: require("../images/mcet.webp"),
     // lcon
     SEO_ICON: require("../images/icon/seo.webp"),
     SEM_ICON: require("../images/icon/sem.webp"),
@@ -34,4 +39,17 @@ export default
     APP_ICON: require("../images/icon/app.webp"),
     MOB_ICON: require("../images/icon/mob.webp"),
     BRAND_ICON: require("../images/icon/brand.webp"),
+    // team
+    NAGARAJ: require("../images/team/img-1.webp"),
+    MEHALA: require("../images/team/img-2.webp"),
+    VINO: require("../images/team/img-3.webp"),
+    RAJ: require("../images/team/img-4.webp"),
+    GOWTHAM: require("../images/team/img-5.webp"),
+    FARINA: require("../images/team/img-6.webp"),
+    GEETHA: require("../images/team/img-7.webp"),
+    MANO: require("../images/team/img-8.webp"),
+    DANI: require("../images/team/img-9.webp"),
+    BABU: require("../images/team/img-10.webp"),
+    BALA: require("../images/team/img-11.webp"),
+    SWATHI: require("../images/team/img-12.webp"),
 };

@@ -18,6 +18,7 @@ function Ongoing() {
             <div className='container'>
                 <h1 className='text-center p-3 text-white'>Our <span>Projects</span></h1>
                 <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={8000} >
+                    {/* EDUDHARAMA */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
@@ -43,12 +44,13 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
+                    {/* the pepper */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
-                                        <img src={ Images.FLUID }/>
+                                        <img src={ Images.PEPER }/>
                                     </div>
                                     <div className='row'>
                                         <div className='col-md-12'>
@@ -68,12 +70,13 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
+                    {/* KYK */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
-                                        <img src={ Images.FLUID }/>
+                                        <img src={ Images.KARMA }/>
                                     </div>
                                     <div className='row'>
                                         <div className='col-md-12'>
@@ -93,6 +96,7 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
+                    {/* milestone */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
@@ -118,12 +122,13 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
+                    {/* regenf */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
-                                        <img src={ Images.FLUID }/>
+                                        <img src={ Images.REGEN }/>
                                     </div>
                                     <div className='row'>
                                         <div className='col-md-12'>
@@ -149,7 +154,7 @@ function Ongoing() {
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
-                                        <img src={ Images.FLUID }/>
+                                        <img src={ Images.HAD }/>
                                     </div>
                                     <div className='row'>
                                         <div className='col-md-12'>
@@ -175,7 +180,7 @@ function Ongoing() {
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
-                                        <img src={ Images.FLUID }/>
+                                        <img src={ Images.RPSC }/>
                                     </div>
                                     <div className='row'>
                                         <div className='col-md-12'>
@@ -201,7 +206,7 @@ function Ongoing() {
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
                                     <div className=''>
-                                        <img src={ Images.FLUID }/>
+                                        <img src={ Images.MCET }/>
                                     </div>
                                     <div className='row'>
                                         <div className='col-md-12'>
@@ -216,11 +221,12 @@ function Ongoing() {
                             </div>
                             <div className='col-md-6 p-3 custom-pro-pic'>
                                 <div className='custom-bg pic'>
-                                    <img src={ Images.MCET } alt="Milestone Website"/>
+                                    <img src={ Images.MET } alt="Milestone Website"/>
                                 </div>
                             </div>
                         </div>
                     </Item>
+                    {/* fluid */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
@@ -246,6 +252,7 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
+                    {/* aic */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
@@ -271,6 +278,7 @@ function Ongoing() {
                             </div>
                         </div>
                     </Item>
+                    {/* shelters */}
                     <Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
@@ -281,8 +289,7 @@ function Ongoing() {
                                     <div className='row'>
                                         <div className='col-md-12'>
                                             <div className='mt-4'>                                                
-                                                <p>
-                                                    
+                                                <p>                                                    
 With over a decade of experience in the field of construction of IT Parks, Commercial Buildings,Apartment, Hotels, Colleges and School, Rathinam Shelters stepping into creating affordable luxury homes in Coimbatore city. 
                                                 </p>
                                             </div>

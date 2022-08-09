@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 import Carousel from 'react-elastic-carousel';
 import Item from "./item";
+import Images from "../../constants/asset";
 
 function Team() {
     const breakPoints = [
@@ -18,7 +19,7 @@ function Team() {
                 <ul class="list-members mb-0 p-0 mb-5">
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"/>
+                        <img src={ Images.NAGARAJ }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Nagaraj</h3>
@@ -32,7 +33,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"/>
+                        <img src={ Images.MEHALA }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Mehala</h3>
@@ -46,7 +47,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"/>
+                        <img src={ Images.VINO }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Vinothini</h3>
@@ -60,11 +61,11 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"/>
+                        <img src={ Images.RAJ }/>
                         </div>
                         <div class="member-info">
-                        <h3 className='text-white'>Bala Murugan</h3>
-                        <p className='text-white'>SEO Analyst</p>
+                        <h3 className='text-white'>Raj Kumar</h3>
+                        <p className='text-white'>Senior Web Developer</p>
                         <div class="social-link">
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-twitter"></i>
@@ -78,21 +79,21 @@ function Team() {
                 <ul class="list-members mb-0 p-0 mb-5">
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"/>
+                        <img src={ Images.GOWTHAM }/>
                         </div>
                         <div class="member-info">
-                        <h3 className='text-white'>Raj Kumar</h3>
-                        <p className='text-white'>Senior Web Developer</p>
+                        <h3 className='text-white'>Bala Murugan</h3>
+                        <p className='text-white'>SEO Analyst</p>
                         <div class="social-link">
                             <i class="fab fa-facebook-f"></i>
                             <i class="fab fa-twitter"></i>
                             <i class="fab fa-linkedin-in"></i>
                         </div>
                         </div>
-                    </li>
+                    </li>                    
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"/>
+                        <img src={ Images.FARINA }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Farina</h3>
@@ -106,7 +107,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"/>
+                        <img src={ Images.GEETHA }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Geetha</h3>
@@ -120,7 +121,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"/>
+                        <img src={ Images.MANO }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Mano</h3>
@@ -138,7 +139,7 @@ function Team() {
                 <ul class="list-members mb-0 p-0 mb-5">
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/1.png"/>
+                        <img src={ Images.DANI }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Dani</h3>
@@ -152,7 +153,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/2.png"/>
+                        <img src={ Images.BABU }/>
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Anand</h3>
@@ -166,7 +167,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/3.png"/>
+                        <img src={ Images.BALA } />
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Bala Krishnan</h3>
@@ -180,7 +181,7 @@ function Team() {
                     </li>
                     <li class="member">
                         <div class="member-image">
-                        <img src="https://fadzrinmadu.github.io/hosted-assets/team-section-design-using-html-and-css/4.png"/>
+                        <img src={ Images.SWATHI } />
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Swathi</h3>
