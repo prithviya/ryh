@@ -20,6 +20,10 @@ export default
     HAD: require("../images/logo/hadid.webp"),
     REGEN: require("../images/logo/regenf.webp"),
     PEPER: require("../images/logo/pepper.png"),
+    CNG: require("../images/logo/cng.webp"),
+    DHANA: require("../images/logo/dsce.webp"),
+    V2S: require("../images/logo/v2s.webp"),
+    VINAYAKA: require("../images/logo/vinayaka.webp"),
     // Website
     FLUID_WEB: require("../images/fluid-web.webp"),
     AIC_WEB: require("../images/aic-web.webp"),

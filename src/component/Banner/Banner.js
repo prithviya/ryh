@@ -28,7 +28,6 @@ import CountUp from 'react-countup';
                 { name: "ABOUT US", to: "/about", component: About },
                 { name: "OUR TEAM", to: "/about", component: About },
                 { name: "OUR SERVICES", to: "/services", component: About },
-
                 { name: "CONTACT US", to: "/contact" },
                 ]}
                 social={[
