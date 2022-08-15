@@ -103,7 +103,7 @@ border-color:#d43b04;
   }
   .testimonial .pic{
       display: block;
-      position: fixed;
+      position: static;
       margin: 0 auto 15px;
   }
 }
