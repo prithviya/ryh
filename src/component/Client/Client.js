@@ -11,7 +11,7 @@ function Client() {
         { width: 1200, itemsToShow: 1 },
     ];
   return (
-    <div className='container'>
+    <div className='container mt-5'>
         <div className='pt-5 pb-5 custom-sect-client cust-content-container'>
             <h1 className='text-center mb-4'> 
               Few Trusted

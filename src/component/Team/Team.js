@@ -33,7 +33,7 @@ function Team() {
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Mehala</h3>
-                        <p className='text-white'>Senior Digital Marketing Manager</p>
+                        <p className='text-white'>Senior Manager - Digital Marketing </p>
                         
                         </div>
                     </li>
@@ -53,7 +53,7 @@ function Team() {
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Raj Kumar</h3>
-                        <p className='text-white'>Senior Web Developer</p>
+                        <p className='text-white'>Senior - Web Developer</p>
                         
                         </div>
                     </li>
@@ -87,7 +87,7 @@ function Team() {
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Geetha</h3>
-                        <p className='text-white'>Junior Web Developer</p>
+                        <p className='text-white'>Junior - Web Developer</p>
                         
                         </div>
                     </li>

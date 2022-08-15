@@ -23,14 +23,14 @@ function App() {
       {/* <Header/> */}
           <Banner/>
           <About/>
-          <Arrive/>          
-          <Service/>
+          <Arrive/>   
+          <Work/>        
+          {/* <Service/> */}
           <Contact/>
-          <Work/> 
+          <Testimonial/>
           <Team/>               
-          <Testimonial/>          
-          <Ongoing/> 
-          <Getin/>         
+          <Getin/>        
+          <Ongoing/>        
           <Client/>
           <Footer/>
           <Routes>

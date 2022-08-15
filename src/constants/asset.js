@@ -56,4 +56,11 @@ export default
     BABU: require("../images/team/img-10.webp"),
     BALA: require("../images/team/img-11.webp"),
     SWATHI: require("../images/team/img-12.webp"),
+    // Client Web
+    VS: require("../images/v2s.png"),
+    DHANVA: require("../images/dhavatrai.png"),
+    PUMP: require("../images/fluid.png"),
+    MCEET: require("../images/mcet.png"),
+    ONE: require("../images/one-market.png"),
+    RATHINAM: require("../images/rathinam.png"),
 };
