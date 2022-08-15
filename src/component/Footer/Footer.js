@@ -82,8 +82,20 @@ function Footer() {
                                     <a className='text-white'>SMM</a>
                                 </li>
                                 <li className='footer-list'>
-                                    <a className='text-white'>SMO</a>
-                                </li>                                
+                                    <a className='text-white'>SEO</a>
+                                </li>   
+                                <li className='footer-list'>
+                                    <a className='text-white'>Web Development</a>
+                                </li>  
+                                <li className='footer-list'>
+                                    <a className='text-white'>App Development</a>
+                                </li>  
+                                <li className='footer-list'>
+                                    <a className='text-white'>Logo Designing</a>
+                                </li> 
+                                <li className='footer-list'>
+                                    <a className='text-white'>Catalog Designing</a>
+                                </li>                       
                             </ul>                            
                         </div>
                     </div>

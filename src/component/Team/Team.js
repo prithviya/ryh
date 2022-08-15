@@ -32,7 +32,7 @@ function Team() {
                         <img src={ Images.MEHALA }/>
                         </div>
                         <div class="member-info">
-                        <h3 className='text-white'>Mehala</h3>
+                        <h3 className='text-white'>Mehala Govindraj</h3>
                         <p className='text-white'>Senior Manager - Digital Marketing </p>
                         
                         </div>
@@ -141,7 +141,7 @@ function Team() {
                         </div>
                         <div class="member-info">
                         <h3 className='text-white'>Swathi</h3>
-                        <p className='text-white'>Team Associated</p>
+                        <p className='text-white'>Team Associate</p>
                         
                         </div>
                     </li>
