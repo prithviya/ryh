@@ -45,7 +45,7 @@ export default
     BRAND_ICON: require("../images/icon/brand.webp"),
     // team
     NAGARAJ: require("../images/team/img-1.webp"),
-    MEHALA: require("../images/team/img-2.webp"),
+    MEHALA: require("../images/team/img-2.jpg"),
     VINO: require("../images/team/img-3.webp"),
     RAJ: require("../images/team/img-4.webp"),
     GOWTHAM: require("../images/team/img-5.webp"),

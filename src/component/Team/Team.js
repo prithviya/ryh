@@ -24,11 +24,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Nagaraj</h3>
                         <p className='text-white'>Managing  Director</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -38,11 +34,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Mehala</h3>
                         <p className='text-white'>Senior Digital Marketing Manager</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -52,11 +44,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Vinothini</h3>
                         <p className='text-white'>Digital Marketing Specialist</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -66,11 +54,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Raj Kumar</h3>
                         <p className='text-white'>Senior Web Developer</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                 </ul>
@@ -84,11 +68,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Bala Murugan</h3>
                         <p className='text-white'>SEO Analyst</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>                    
                     <li class="member">
@@ -96,13 +76,9 @@ function Team() {
                         <img src={ Images.FARINA }/>
                         </div>
                         <div class="member-info">
-                        <h3 className='text-white'>Farina</h3>
+                        <h3 className='text-white'>Farina Khaligh</h3>
                         <p className='text-white'>Content Writer</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -112,11 +88,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Geetha</h3>
                         <p className='text-white'>Junior Web Developer</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -126,11 +98,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Mano</h3>
                         <p className='text-white'>Senior Graphic designer</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                 </ul>
@@ -144,11 +112,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Dani</h3>
                         <p className='text-white'>Graphic designer</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -158,11 +122,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Anand</h3>
                         <p className='text-white'>Executive Design & Production</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -172,11 +132,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Bala Krishnan</h3>
                         <p className='text-white'>Business Development Executive</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                     <li class="member">
@@ -186,11 +142,7 @@ function Team() {
                         <div class="member-info">
                         <h3 className='text-white'>Swathi</h3>
                         <p className='text-white'>Team Associated</p>
-                        <div class="social-link">
-                            <i class="fab fa-facebook-f"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-linkedin-in"></i>
-                        </div>
+                        
                         </div>
                     </li>
                 </ul>
