@@ -44,7 +44,7 @@ function Footer() {
                                 <a class="social-button twitter" href="https://twitter.com/Ranku_higher/" target="_blank">
                                     <FaTwitter className='text-white'/>
                                 </a>
-                                <a class="social-button linkedin" href="#" target="_blank">
+                                <a class="social-button linkedin" href="https://www.linkedin.com/company/ranku-higher/" target="_blank">
                                     <FaLinkedinIn className='text-white'/>
                                 </a>
                                 <a class="social-button youtube" href="#" target="_blank">

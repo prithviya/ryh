@@ -116,7 +116,7 @@ export default function work() {
                                     <div class="card-body">
                                         <span class="card-title text-center">App Development</span>
                                         <p class="card-text text-justify mb-4">
-                                        To create a fast and smooth app for any platform, we also deliver products with outsourcing app development model. This model gives a reasonable solution to control the budget and other resourses.
+                                        To create a fast and smooth app for any platform, we also deliver products with an outsourcing app development model. This model gives a reasonable solution to control the budget and other resources.
                                         </p>
                                     </div>
                                 </a>
