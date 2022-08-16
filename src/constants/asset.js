@@ -1,7 +1,7 @@
 export default
 {
     BANNER_SECTION: require("../images/banner.webp"),
-    BANNER_LOGO: require("../images/logo.png"),
+    BANNER_LOGO: require("../images/brand-logo.webp"),
     MENU_ICON: require("../images/menu.png"),
     WORKFLOW_SECTION: require("../images/web.webp"),
     CONTACT_SECTION: require("../images/contact.webp"),
@@ -19,7 +19,7 @@ export default
     RPSC: require("../images/logo/rps.webp"),
     HAD: require("../images/logo/hadid.webp"),
     REGEN: require("../images/logo/regenf.webp"),
-    PEPER: require("../images/logo/pepper.png"),
+    PEPER: require("../images/logo/pepper.webp"),
     CNG: require("../images/logo/cng.webp"),
     DHANA: require("../images/logo/dsce.webp"),
     V2S: require("../images/logo/v2s.webp"),
@@ -45,7 +45,7 @@ export default
     BRAND_ICON: require("../images/icon/brand.webp"),
     // team
     NAGARAJ: require("../images/team/img-1.webp"),
-    MEHALA: require("../images/team/img-2.jpg"),
+    MEHALA: require("../images/team/img-2.webp"),
     VINO: require("../images/team/img-3.webp"),
     RAJ: require("../images/team/img-4.webp"),
     GOWTHAM: require("../images/team/img-5.webp"),
@@ -53,14 +53,14 @@ export default
     GEETHA: require("../images/team/img-7.webp"),
     MANO: require("../images/team/img-8.webp"),
     DANI: require("../images/team/img-9.webp"),
-    BABU: require("../images/team/img-10.webp"),
+    BABU: require("../images/team/img-10.png"),
     BALA: require("../images/team/img-11.webp"),
     SWATHI: require("../images/team/img-12.webp"),
     // Client Web
-    VS: require("../images/v2s.png"),
-    DHANVA: require("../images/dhavatrai.png"),
-    PUMP: require("../images/fluid.png"),
-    MCEET: require("../images/mcet.png"),
-    ONE: require("../images/one-market.png"),
-    RATHINAM: require("../images/rathinam.png"),
+    VS: require("../images/v2s.webp"),
+    DHANVA: require("../images/dhavatrai.webp"),
+    PUMP: require("../images/fluid.webp"),
+    MCEET: require("../images/mceet.webp"),
+    ONE: require("../images/one-market.webp"),
+    RATHINAM: require("../images/rathinam.webp"),
 };

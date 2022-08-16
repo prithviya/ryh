@@ -24,8 +24,8 @@ import CountUp from 'react-countup';
                 color="#464849"
                 logo="logo.webp"
                 menu={[
-                { name: "HOME", to: "/", component: Home },
-                { name: "ABOUT US", to: "/about", component: About },
+                { name: "HOME", to: "/" },
+                { name: "ABOUT US", to: "/#about-section"},
                 { name: "OUR TEAM", to: "/about", component: About },
                 { name: "OUR SERVICES", to: "/services", component: About },
                 { name: "CONTACT US", to: "/contact" },

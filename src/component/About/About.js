@@ -1,10 +1,10 @@
 import React from 'react';
 import MyPDF from '../../images/Brochure.pdf';
 import './styles.css';
-import Mission from '../../images/mission.png'
+import Mission from '../../images/mission.webp';
 function About() {
   return (
-    <div id='About-section'>
+    <div id='about-section'>
         <div className='container'>
             <div className='mt-5 mb-5'>
                 <div className='row custom-about mb-5'>

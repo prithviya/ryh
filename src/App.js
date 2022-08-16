@@ -19,7 +19,7 @@ import Team from './component/Team/Team';
 function App() {
   return (
     <div>
-      <Router>
+      
       {/* <Header/> */}
           <Banner/>
           <About/>
@@ -33,11 +33,7 @@ function App() {
           <Ongoing/>        
           <Client/>
           <Footer/>
-          <Routes>
-            {/* <Route path ="/" element ={<Landing/>} /> */}
-            {/* <Route exact path="/"  element={<Navbar/>}/> */}
-          </Routes>
-      </Router>
+               
     </div>
   );
 }
