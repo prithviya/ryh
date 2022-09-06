@@ -1,25 +1,18 @@
 import React from 'react';
-import Carousel from 'react-elastic-carousel';
-import Item from "./item";
+import Carousel from 'react-bootstrap/Carousel';
 import Images from "../../constants/asset";
 import './styles.css';
 
 
 function Ongoing() {
-    const breakPoints = [
-        { width: 1, itemsToShow: 1 },
-        { width: 550, itemsToShow: 1 },
-        { width: 768, itemsToShow: 1 },
-        { width: 1200, itemsToShow: 1 },
-    ];
   return (
     <div>
         <div className='cust-ongoing-section pt-5 pb-5'>
             <div className='container'>
                 <h1 className='text-center p-3 text-white'>Our <span>Projects</span></h1>
-                <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={8000} >
+                <Carousel variant="dark">
                     {/* EDUDHARAMA */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -43,9 +36,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* the pepper */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -69,9 +62,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* KYK */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -95,9 +88,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* milestone */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -121,9 +114,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* regenf */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -147,9 +140,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* hadid */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -173,9 +166,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* rps */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -199,9 +192,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* mcet */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -225,9 +218,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* fluid */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -251,9 +244,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* aic */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -277,9 +270,9 @@ function Ongoing() {
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                     {/* shelters */}
-                    <Item className='mb-3 pt-3'>
+                    <Carousel.Item className='mb-3 pt-3'>
                         <div className='row m-2'>
                             <div className='col-md-6 p-3'>
                                 <div className='content'>
@@ -304,7 +297,7 @@ With over a decade of experience in the field of construction of IT Parks, Comme
                                 </div>
                             </div>
                         </div>
-                    </Item>
+                    </Carousel.Item>
                 </Carousel>
             </div>
         </div>

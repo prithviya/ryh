@@ -3,7 +3,8 @@ import {useEffect} from 'react';
 import { FaArrowUp, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa"; 
 import Image from "../../constants/asset";
 import { ReactNavbar } from "react-responsive-animate-navbar";
-import Logo from '../../images/logo.webp';
+// import Logo from '../../images/logo.webp';
+import Logo from '../../images/LOGO.png'
 import CountUp from 'react-countup';
         
     const Banner= () => {
@@ -19,22 +20,7 @@ import CountUp from 'react-countup';
     
   return (
     <div className='custom-sec-banner pb-5'>
-         
-         <ReactNavbar
-                color="#464849"
-                logo="logo.webp"
-                menu={[
-                { name: "HOME", to: "/" },
-                { name: "ABOUT US", to: "/#about-section"},
-                { name: "OUR TEAM", to: "/about", component: About },
-                { name: "OUR SERVICES", to: "/services", component: About },
-                { name: "CONTACT US", to: "/contact" },
-                ]}
-                social={[
-                ]}
-                sticky
-            />
-        <div className='container custom-banner-content'>
+        <div className='container custom-banner-content'>            
             <div className='row'>
                 <div className='col-md-7'>
                     <h1 className='text-white'>Leveling up your Digital Marketing</h1>
@@ -42,9 +28,9 @@ import CountUp from 'react-countup';
                     Turn your Business into a Brand. We provide fail-safe and progressive techniques which turn your visitors into your customers.
                     </p>
                     <button>
-                        <span class="shadow"></span>
-                        <span class="edge"></span>
-                        <span class="front text"> Get Quotes
+                        <span className= "shadow"></span>
+                        <span className= "edge"></span>
+                        <span className= "front text"> Get Quotes
                         </span>
                     </button>
                 </div>
@@ -52,12 +38,12 @@ import CountUp from 'react-countup';
                 </div>
                 <div className='row custom-counter-content'>
                     <div className='col-md-3 col-4 text-center'>
-                        <h1 className='text-orange'><CountUp start={0} end={10} delay={1} />+</h1>
-                        <h3 className='text-white'>Client</h3>
+                        <h1 className='text-orange'><CountUp start={0} end={80} delay={1} />+</h1>
+                        <h3 className='text-white'>Clients</h3>
                     </div>
                     <div className='col-md-3 col-4 text-center'>
-                    <h1 className='text-orange'><CountUp start={0} end={15} delay={1} />+</h1>
-                        <h3 className='text-white'>Project</h3>
+                    <h1 className='text-orange'><CountUp start={0} end={215} delay={1} />+</h1>
+                        <h3 className='text-white'>Projects</h3>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ function About() {
                     <div className='col-md-8'>
                         <h1 className='text-center custom-font-abt'>The Best Digital Marketing Company in Coimbatore</h1>
                         <p className='pt-3'>
-                        We offer a proven workflow and tested packages that suits best for all kinds of business. To deliver the best, we have to be better in the service we provide. In the current Digital World, the approximate number of websites now surpasses 1 billion. If you have an idea and want to bring the best out of it to rank you up in the digital space, we (rank you higher) will make it happen. A customized offering can be availed by the client at any time. RYH offers a proven workflow techniques and test packages that best utilize digital marketing capabilities.
+                        We offer a proven workflow and tested packages that suits best for all kinds of business. To deliver the best, we have to be better in the service we provide. In the current Digital World, the approximate number of websites now surpasses 1 billion. If you have an idea and want to bring the best out of it to rank you up in the digital space, we (Rank You Higher) will make it happen. A customized offering can be availed by the client at any time. RYH offers a proven workflow techniques and test packages that best utilize digital marketing capabilities.
                         </p>
                     </div>
                 </div>
@@ -28,16 +28,16 @@ function About() {
                         </div>
                         <div className='col-md-4'>
                             <figure className='custom-align-center'>
-                                <img src={Mission} class="img-fluid" alt="" style={{ width:'100%' }}/>
+                                <img src={Mission} className= "img-fluid" alt="" style={{ width:'100%' }}/>
                             </figure>
                         </div>
                     </div>      
                     <h4 className='text-center'>Download Our Brochure</h4>              
                     <a href={ MyPDF } download="Brochure.pdf" className='custom-align-center' style={{textDecoration:'none'}}>
                         <button className='text-center'>
-                            <span class="shadow"></span>
-                            <span class="edge"></span>
-                            <span class="front text"> Download
+                            <span className= "shadow"></span>
+                            <span className= "edge"></span>
+                            <span className= "front text"> Download
                             </span>
                         </button>
                     </a>

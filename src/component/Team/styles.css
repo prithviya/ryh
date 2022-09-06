@@ -1,5 +1,17 @@
 
 /* style member component */
+.carousel-dark .carousel-indicators [data-bs-target] 
+{
+  background-color: #d43b04;
+}
+
+.carousel-control-next, .carousel-control-prev
+{
+  display: none;
+}
+.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
+  filter: none;
+}
 .list-members {
     width: 80%;
     margin: auto;

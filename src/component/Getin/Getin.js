@@ -1,14 +1,30 @@
-import React from 'react';
+import { useContext, useRef as UseRef, useState as UseSate } from "react";
+import emailjs from 'emailjs-com';
 import Images from '../../constants/asset';
-
+ 
 function Getin() {
+  
+    const formRef = UseRef();
+    const [done, setDone] = UseSate(false)
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_tlos0wq', 'template_t2yuo7b', formRef.current, 'LroZ86Cu5qNvOjs1l')
+        .then((result) => {
+            console.log(result.text);
+            setDone(true)
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
+
   return (
     <div>
          <div className='cust-conts-section pt-5 pb-5'>
             <div className='container'>
                 <div className='row'>
                     <div className='col-12'>
-                        <h1 className='text-center'>Our <span>Contact</span> Us</h1>
+                        <h1 className='text-center'>Contact <span>Us</span></h1>
                     </div>
                     <div className='col-md-7 p-4    '>
                         <h1 className=''>We can solve
@@ -16,36 +32,36 @@ your business problems</h1>
                         <img src={ Images.GETIN_SECTION } style={{ width:'100%' }}/>
                     </div>
                     <div className='col-md-5'>
-                        <form id="form">     
+                        <form id="form" ref={formRef} onSubmit={handleSubmit}>     
                             <h4 className='pb-2'>
                             Leave a request
 and our specialist will contact
 you within 15 minutes
                             </h4>               
-                            <div class="input-box active">
-                                <label class="input-label">Name</label>
-                                <input type="text" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                            <div className="input-box active">
+                                <label className="input-label">Name</label>
+                                <input type="text" className="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" name="user_name" required/>
                             </div>
-                            <div class="input-box active">
-                                <label class="input-label">Email</label>
-                                <input type="email" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                            <div className="input-box active">
+                                <label className="input-label">Email</label>
+                                <input type="email" className="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" name="user_email" required/>
                             </div>
-                            <div class="input-box active">
-                                <label class="input-label">Phone Number</label>
-                                <input type="tel"  class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                            <div className="input-box active">
+                                <label className="input-label">Phone Number</label>
+                                <input type="tel"  className="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" name="user_mobile" pattern="[6789][0-9]{9}" required/>
                             </div>
-                            <div class="textarea active">
-                                <label class="input-label">Message</label>
-                                <textarea rows = "5" cols = "50" class="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" />
+                            <div className="textarea active">
+                                <label className="input-label">Message</label>
+                                <textarea rows = "5" cols = "50" className="input-1" onfocus="setFocus(true)" onblur="setFocus(false)" name="user_message"/>
                             </div>
                             
-                            <button style={{ width: '100%' }}>
-                                <span class="shadow"></span>
-                                <span class="edge"></span>
-                                <span class="front text"> Get a Free Consultation
+                            <button style={{ width: '100%' }} type="submit">
+                                <span className="shadow"></span>
+                                <span className="edge"></span>
+                                <span className="front text"> Get a Free Consultation
                                 </span>
                             </button>
-                            <div class="clear"></div>
+                            <div className="clear">{done && <div style={{color: "#fd7e14", marginTop: "15px", fontSize: "18px", textAlign: "center"}}>Thank you</div>}</div>
                         </form>
                     </div>
                 </div>                

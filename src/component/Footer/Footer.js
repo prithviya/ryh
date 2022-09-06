@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from "react-scroll";
+
 import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn, FaYoutube, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa";
 import Images from '../../constants/asset';
 
@@ -16,7 +18,7 @@ function Footer() {
                     <div className='col-md-4 custom-footer p-5'>
                         <img src="https://img.icons8.com/ios-glyphs/64/d43b04/new-post.png"/>
                         <p className='text-white cust-decoration'>
-                            <a class="text-white cust-decoration" href="mailto:ryh.digitalservices@gmail.com">
+                            <a className="text-white cust-decoration" href="mailto:ryh.digitalservices@gmail.com">
                                 ryh.digitalservices@gmail.com
                             </a>
                         </p>
@@ -24,7 +26,7 @@ function Footer() {
                     <div className='col-md-4 custom-footer p-5'>
                         <img src="https://img.icons8.com/sf-regular-filled/64/d43b04/phone.png"/>
                         <p className='text-white'>
-                            <a class="text-white cust-decoration" href="tel:+91 7558101666">
+                            <a className="text-white cust-decoration" href="tel:+91 7558101666">
                                 +91 75581 01666
                             </a>
                         </p>
@@ -37,20 +39,20 @@ function Footer() {
                         <div className='col-md-4' id='custom-logo'>
                             <img src={ Images.BANNER_LOGO } className='custom-logo'/>
                             <h5 className='text-white mt-3'>Follow Us</h5>
-                            <div class="rounded-social-buttons">
-                                <a class="social-button facebook" href="https://www.facebook.com/rankuhigher2020/" target="_blank">
+                            <div className="rounded-social-buttons">
+                                <a className="social-button facebook" href="https://www.facebook.com/rankuhigher2020/" target="_blank">
                                     <FaFacebookF className='text-white'/>
                                 </a>
-                                <a class="social-button twitter" href="https://twitter.com/Ranku_higher/" target="_blank">
+                                <a className="social-button twitter" href="https://twitter.com/Ranku_higher/" target="_blank">
                                     <FaTwitter className='text-white'/>
                                 </a>
-                                <a class="social-button linkedin" href="https://www.linkedin.com/company/ranku-higher/" target="_blank">
+                                <a className="social-button linkedin" href="https://www.linkedin.com/company/ranku-higher/" target="_blank">
                                     <FaLinkedinIn className='text-white'/>
                                 </a>
-                                <a class="social-button youtube" href="#" target="_blank">
+                                <a className="social-button youtube" href="#" target="_blank">
                                     <FaYoutube className='text-white'/>
                                 </a>
-                                <a class="social-button instagram" href="https://www.instagram.com/ranku_higher/" target="_blank">
+                                <a className="social-button instagram" href="https://www.instagram.com/ranku_higher/" target="_blank">
                                     <FaInstagram className='text-white'/>
                                 </a>
                             </div> 
@@ -58,17 +60,38 @@ function Footer() {
                         <div className='col-md-4' id='custom-logo'>
                             <h4 className='text-white mt-3'>Quick Link</h4>
                             <ul className='cust-footerlink'>
+                                <li className="footer-list">
+                                    <Link to="about" className='text-white'>About</Link>
+                                </li> 
                                 <li className='footer-list'>
-                                    <a className='text-white'>Home</a>
+                                    <Link to="service" className='text-white'>
+                                        Services
+                                    </Link>
                                 </li>
                                 <li className='footer-list'>
-                                    <a className='text-white'>About Us</a>
+                                    <Link to="team"  className='text-white'>
+                                        Team
+                                    </Link>
                                 </li>
                                 <li className='footer-list'>
-                                    <a className='text-white'>Services</a>
+                                    <Link to="testimonial" className='text-white'>
+                                        Testimonial
+                                    </Link>
                                 </li>
                                 <li className='footer-list'>
-                                    <a className='text-white'>Contact</a>
+                                    <Link to="client" className='text-white'>
+                                        Client
+                                    </Link>
+                                </li>
+                                <li className='footer-list'>
+                                    <Link to="project" className='text-white'>
+                                        Project
+                                    </Link>
+                                </li>
+                                <li className='footer-list'>
+                                    <Link to="contact" className='text-white'>
+                                        Contact
+                                    </Link>
                                 </li>
                             </ul>
                         </div>

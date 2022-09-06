@@ -19,21 +19,43 @@ import Team from './component/Team/Team';
 function App() {
   return (
     <div>
-      
-      {/* <Header/> */}
-          <Banner/>
-          <About/>
-          <Arrive/>   
-          <Work/>        
-          {/* <Service/> */}
-          <Contact/>
-          <Testimonial/>
-          <Team/>               
-          <Getin/>        
-          <Ongoing/>        
-          <Client/>
-          <Footer/>
-               
+      <div id="home">
+        <Header/>
+      </div>
+      <div id="">
+        <Banner/>
+      </div>
+      <div id="about">
+        <About/>
+      </div>
+      <div id="">
+        <Arrive/> 
+      </div>
+      <div id="service">
+        <Work/>  
+      </div>
+      <div id="team">
+        <Team/> 
+      </div>
+      <div id="testimonial">
+        <Testimonial/>
+      </div>
+      <div id="about">
+        <Contact/>
+      </div>
+      <div id="client">
+        <Client/>
+      </div>
+      <div id="project">
+        <Ongoing/>
+      </div>
+      <div id="contact">
+        <Getin/> 
+      </div>
+      <div id="">
+        <Footer/>
+      </div> 
+          {/* <Service/> */}      
     </div>
   );
 }

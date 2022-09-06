@@ -1,15 +1,6 @@
-.ckSse {
-    height: auto;
-    width: 100%;
-    background-color: #fff;
-    color: #333;
-    margin: 0 15px;
-    padding: 3rem;
-    padding-bottom: 0px;
-    box-shadow: none !important;
-}
-.fqCXym, .giComx {
-    box-shadow: none !important;
+.carousel-indicators
+{
+  margin-bottom: 0rem;
 }
 /* testimonial */
 .testimonial{

@@ -1,15 +1,8 @@
 import React from 'react';
 import Images from '../../constants/asset';
-import Carousel from 'react-elastic-carousel';
-import Item from "./item";
+import Carousel from 'react-bootstrap/Carousel';
     
 function Client() {
-    const breakPoints = [
-        { width: 1, itemsToShow: 1 },
-        { width: 550, itemsToShow: 1 },
-        { width: 768, itemsToShow: 1 },
-        { width: 1200, itemsToShow: 1 },
-    ];
   return (
     <div className='container mt-5'>
         <div className='pt-5 pb-5 custom-sect-client cust-content-container'>
@@ -18,8 +11,8 @@ function Client() {
                <span> by leading brands </span>
                from <br/>around the world
             </h1>
-            <Carousel breakPoints={breakPoints} showArrows={false} enableAutoPlay autoPlaySpeed={9999} >        
-                <Item className=''>
+            <Carousel variant="dark" className='pb-4'>
+                <Carousel.Item>
                     <div className='brand-boxes'>
                         <div className='brand-box'>
                             <figures>
@@ -62,8 +55,8 @@ function Client() {
                             </figures>
                         </div>
                     </div>
-                </Item>
-                <Item>
+                </Carousel.Item>
+                <Carousel.Item>
                     <div className='brand-boxes'>
                         <div className='brand-box'>
                             <figures>
@@ -106,7 +99,7 @@ function Client() {
                             </figures>
                         </div>
                     </div>
-                </Item>
+                </Carousel.Item>
             </Carousel>            
         </div>
     </div>
