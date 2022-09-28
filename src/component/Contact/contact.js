@@ -1,7 +1,8 @@
 import { useContext, useRef as UseRef, useState as UseSate } from "react";
 import emailjs from 'emailjs-com';
-import FormInput from './FormInput'
+// import FormInput from './FormInput';
 import Images from '../../constants/asset';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function contact() {
 
@@ -61,7 +62,7 @@ you within 15 minutes
                         </form>
                     </div>
                     <div className='col-md-7 p-3'>
-                        <img src={ Images.CONTACT_SECTION } style={{ width:'100%' }}/>
+                        <LazyLoadImage src={ Images.CONTACT_SECTION } style={{ width:'100%' }} alt='contact image' loading="lazy"/>
                     </div>
                 </div>                
             </div>

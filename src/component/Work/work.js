@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import Images from "../../constants/asset";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 export default function work() {
@@ -18,10 +19,10 @@ export default function work() {
                     <div className="row">
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="card card3">
-                                <a href="#" className="">
+                                <a href="/#" className="">
                                     <div className='custom-align-center'>
                                         <span className="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                            <img src= { Images.SEO_ICON } alt="APP_ICON" className='mt-3' style={{width:'64px'}}/>
+                                            <LazyLoadImage src= { Images.SEO_ICON } alt="APP_ICON" className='mt-3' style={{width:'64px'}}  loading="lazy"/>
                                         </span>
                                     </div>
                                     
@@ -36,10 +37,10 @@ export default function work() {
                         </div>
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="card card3">
-                                <a href="#" className="">
+                                <a href="/#" className="">
                                     <div className='custom-align-center'>
                                         <span className="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                            <img src= { Images.BRAND_ICON } alt="APP_ICON" className='mt-3'/>
+                                            <LazyLoadImage src= { Images.BRAND_ICON } loading="lazy" alt="APP_ICON" className='mt-3' style={{width:'64px'}}/>
                                         </span>
                                     </div>
                                     
@@ -54,10 +55,10 @@ export default function work() {
                         </div>
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="card card3">
-                                <a href="#" className="">
+                                <a href="!#" className="">
                                     <div className='custom-align-center'>
                                         <span className="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                            <img src= { Images.SMM_ICON } alt="APP_ICON" className='mt-3'/>
+                                            <LazyLoadImage src= { Images.SMM_ICON } loading="lazy" alt="APP_ICON" className='mt-3' style={{width:'64px'}}/>
                                         </span>
                                     </div>
                                     <div className="card-body">
@@ -71,10 +72,10 @@ export default function work() {
                         </div>
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="card card3">
-                                <a href="#" className="">
+                                <a href="/#" className="">
                                     <div className='custom-align-center'>
                                         <span className="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                            <img src= { Images.SEM_ICON } alt="APP_ICON" className='mt-3'/>
+                                            <LazyLoadImage src= { Images.SEM_ICON }  loading="lazy"alt="APP_ICON" className='mt-3' style={{width:'64px'}}/>
                                         </span>
                                     </div>
                                     
@@ -89,10 +90,10 @@ export default function work() {
                         </div>
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="card card3">
-                                <a href="#" className="">
+                                <a href="/#" className="">
                                     <div className='custom-align-center'>
                                         <span className="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                            <img src= { Images.APP_ICON } alt="APP_ICON" className='mt-3'/>
+                                            <LazyLoadImage src= { Images.APP_ICON } loading="lazy" alt="APP_ICON" className='mt-3' style={{width:'64px'}}/>
                                         </span>
                                     </div>
                                     
@@ -107,10 +108,10 @@ export default function work() {
                         </div>
                         <div className="col-12 col-md-6 col-lg-4">
                             <div className="card card3">
-                                <a href="#" className="">
+                                <a href="/#" className="">
                                    <div className='custom-align-center'>
                                         <span className="card-icon-top  vfi vfi-permis-animal-chien text-center" aria-hidden="true">
-                                            <img src= { Images.MOB_ICON } alt="MOB_ICON" className='mt-3'/>
+                                            <LazyLoadImage src= { Images.MOB_ICON } loading="lazy" alt="MOB_ICON" className='mt-3' style={{width:'64px'}}/>
                                         </span>
                                    </div>
                                     <div className="card-body">
@@ -123,7 +124,7 @@ export default function work() {
                             </div>
                         </div>
                         <div className='col-12 custom-align-center'>
-                            <a href='http://showcase.rankuhigher.in/' target={'_blank'}>
+                            <a href='http://showcase.rankuhigher.in/' target={'_blank'} rel="noreferrer">
                                 <button>
                                     <span className="shadow"></span>
                                     <span className="edge"></span>

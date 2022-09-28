@@ -15,10 +15,10 @@ function Header() {
         <Navbar key={expand} bg="light" expand={expand}>
           <Container fluid>
             <Navbar.Brand href="#">
-              <img src={ Image.BANNER_LOGO } alt="" style={{maxWidth: "150px", marginLeft: '20px'}}/>
+              <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "150px", marginLeft: '20px'}}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{border:'none'}}>
-              <img src={ Image.MENU_ICON}/>
+              <img src={ Image.MENU_ICON} alt='menu-toggle' loading="lazy"/>
             </Navbar.Toggle>
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
@@ -27,7 +27,7 @@ function Header() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img src={ Image.BANNER_LOGO } alt="" style={{maxWidth: "250px"}}/>
+                <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "250px"}}/>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -51,7 +51,7 @@ function Header() {
                       </Link>
                     </li> 
                   </Nav.Link>
-                  <Nav.Link href="http://showcase.rankuhigher.in/">
+                  <Nav.Link href="http://showcase.rankuhigher.in/" target={'_blank'} rel="noreferrer">
                     Projects
                   </Nav.Link>
                   <Nav.Link>

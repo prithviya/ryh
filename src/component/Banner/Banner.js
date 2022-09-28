@@ -1,18 +1,11 @@
 import React from 'react';
 import {useEffect} from 'react';
-import { FaArrowUp, FaEnvelopeOpen, FaPhoneAlt } from "react-icons/fa"; 
-import Image from "../../constants/asset";
-import { ReactNavbar } from "react-responsive-animate-navbar";
-// import Logo from '../../images/logo.webp';
-import Logo from '../../images/LOGO.png'
+import { FaArrowUp} from "react-icons/fa"; 
+import { Link } from "react-scroll";
 import CountUp from 'react-countup';
         
-    const Banner= () => {
-    const Home = () => <h1>home</h1>;
-    const Articles = () => <h1>Articles</h1>;
-    const Contact = () => <h1>Contact</h1>;
-    const About = () => <h1>About</h1>;
-
+const Banner= () => 
+{
     useEffect(() => {
         // 👇️ scroll to top on page load
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -27,21 +20,31 @@ import CountUp from 'react-countup';
                     <p className='text-white'>
                     Turn your Business into a Brand. We provide fail-safe and progressive techniques which turn your visitors into your customers.
                     </p>
-                    <button>
-                        <span className= "shadow"></span>
-                        <span className= "edge"></span>
-                        <span className= "front text"> Get Quotes
-                        </span>
-                    </button>
+                    <Link to="contact">
+                        <button>
+                            <span className= "shadow"></span>
+                            <span className= "edge"></span>
+                            <span className= "front text"> Get Quotes
+                            </span>
+                        </button>
+                    </Link>
+                    <a href="http://showcase.rankuhigher.in/" target={'_blank'} rel="noreferrer" className='ml-3'>
+                        <button>
+                            <span className= "shadow"></span>
+                            <span className= "edge"></span>
+                            <span className= "front text"> Our Work
+                            </span>
+                        </button>
+                    </a>
                 </div>
                 <div className='col-md-5'>
                 </div>
                 <div className='row custom-counter-content'>
-                    <div className='col-md-3 col-4 text-center'>
+                    <div className='col-md-3 col-4 text-center mt-5'>
                         <h1 className='text-orange'><CountUp start={0} end={80} delay={1} />+</h1>
                         <h3 className='text-white'>Clients</h3>
                     </div>
-                    <div className='col-md-3 col-4 text-center'>
+                    <div className='col-md-3 col-4 text-center mt-5'>
                     <h1 className='text-orange'><CountUp start={0} end={215} delay={1} />+</h1>
                         <h3 className='text-white'>Projects</h3>
                     </div>
@@ -59,7 +62,7 @@ import CountUp from 'react-countup';
                 position: 'fixed',
                 padding: '5px 10px',
                 fontSize: '20px',
-                bottom: '40px',
+                bottom: '115px',
                 right: '40px',
                 background: 'linear-gradient(19deg, #4a4c4d 10%, #d43b04 100%)',
                 // backgroundColor: 'rgb(212, 59, 4)',

@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import Carousel from 'react-bootstrap/Carousel';
 import Images from "../../constants/asset";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Testimonial() {
   return (
@@ -15,7 +16,7 @@ function Testimonial() {
                             <div id="testimonial-slider" className="owl-carousel">
                                 <div className="testimonial">
                                     <div className="pic">
-                                        <img src={ Images.VS }/>
+                                        <LazyLoadImage src={ Images.VS } alt='testimonial' loading="lazy"/>
                                     </div>
                                     <p className="description">
                                     I am absolutely satisfied with the project we have done with Rank You Higher team. The Professional developers, Creative Designer decent project manager and passioned marketing team
@@ -28,7 +29,7 @@ function Testimonial() {
                             <div id="testimonial-slider" className="owl-carousel">
                                 <div className="testimonial">
                                     <div className="pic">
-                                        <img src={ Images.DHANVA }/>
+                                        <LazyLoadImage src={ Images.DHANVA } alt='testimonial' loading="lazy"/>
                                     </div>
                                     <p className="description">
                                     Working with Rank you Higher team has been a pleasure to work with, very polite, very understanding. All their team members are friendly, professional and detail-oriented. A real treat!
@@ -45,7 +46,7 @@ function Testimonial() {
                             <div id="testimonial-slider" className="owl-carousel">
                                 <div className="testimonial">
                                     <div className="pic">
-                                        <img src={ Images.ONE }/>
+                                        <LazyLoadImage src={ Images.ONE } alt='testimonial' loading="lazy"/>
                                     </div>
                                     <p className="description">
                                     Since working with RYH our lead quality and profitability have skyrocketed! I have also been impressed by the quality of services and constant communication and tracking RHY offers. 
@@ -58,7 +59,7 @@ function Testimonial() {
                             <div id="testimonial-slider" className="owl-carousel">
                                 <div className="testimonial">
                                     <div className="pic">
-                                        <img src={ Images.MCEET } />
+                                        <LazyLoadImage src={ Images.MCEET }  alt='testimonial' loading="lazy"/>
                                     </div>
                                     <p className="description">
                                     RYH have provided great services and strategies for accelerating our business growth. Most importantly, they are willing and able to adapt our marketing strategy to help us succeed in our industry. 
@@ -75,7 +76,7 @@ function Testimonial() {
                             <div id="testimonial-slider" className="owl-carousel">
                                 <div className="testimonial">
                                     <div className="pic">
-                                        <img src={ Images.PUMP }/>
+                                        <LazyLoadImage src={ Images.PUMP } alt='testimonial' loading="lazy"/>
                                     </div>
                                     <p className="description">
                                     We chose RYH to become our official partner and developer of our mobile strategy due to their professional and expert approach to work. It takes a lot of dedication and effort to work.
@@ -89,7 +90,7 @@ function Testimonial() {
                             <div id="testimonial-slider" className="owl-carousel">
                                 <div className="testimonial">
                                     <div className="pic">
-                                        <img src={ Images.RATHINAM }/>
+                                        <LazyLoadImage src={ Images.RATHINAM } alt='testimonial' loading="lazy"/>
                                     </div>
                                     <p className="description">
                                     RYH has proven to be an integral marketing partner for our team. They handled our website revamp, as well as have continued to work with us to optimize our SEO, create campaigns. 

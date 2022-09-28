@@ -1,7 +1,7 @@
 import React from 'react';
-import Carousel from 'react-elastic-carousel';
-import Item from "./item";
-import { FaCheck } from "react-icons/fa"; 
+// import Carousel from 'react-elastic-carousel';
+// import Item from "./item";
+// import { FaCheck } from "react-icons/fa"; 
 import './style.css';
 
 
@@ -15,7 +15,7 @@ function Service() {
   return (
     <div className='pt-5 pb-5 container cust-sect-service'>
         <h1 className='text-center'>Our <span>Services</span></h1>
-        <Carousel breakPoints={breakPoints} showArrows={true} enableAutoPlay autoPlaySpeed={9000} >
+        {/* <Carousel breakPoints={breakPoints} showArrows={true} enableAutoPlay autoPlaySpeed={9000} >
           <Item className='mb-3 mt-4'>
             <div className='custom-border m-1'>
                 <h6 className='demo1'>WebSite Promotion(SEO)</h6>
@@ -253,7 +253,7 @@ function Service() {
                     </ul>
             </div>
           </Item>
-        </Carousel>
+        </Carousel> */}
     </div>
   )
 }

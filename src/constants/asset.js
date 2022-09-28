@@ -24,6 +24,9 @@ export default
     DHANA: require("../images/logo/dsce.webp"),
     V2S: require("../images/logo/v2s.webp"),
     VINAYAKA: require("../images/logo/vinayaka.webp"),
+    MILESTONE: require("../images/logo/milestone.png"),
+    EDU: require('../images/logo/edudharma.png'),
+
     // Website
     FLUID_WEB: require("../images/fluid-web.webp"),
     AIC_WEB: require("../images/aic-web.webp"),
@@ -37,9 +40,9 @@ export default
     RPS: require("../images/rps.webp"),
     MET: require("../images/mcet.webp"),
     // lcon
-    SEO_ICON: require("../images/icon/seo.webp"),
-    SEM_ICON: require("../images/icon/sem.webp"),
-    SMM_ICON: require("../images/icon/smm.webp"),
+    SEO_ICON: require("../images/icon/SEO.webp"),
+    SEM_ICON: require("../images/icon/SEM.webp"),
+    SMM_ICON: require("../images/icon/SMM.webp"),
     APP_ICON: require("../images/icon/app.webp"),
     MOB_ICON: require("../images/icon/mob.webp"),
     BRAND_ICON: require("../images/icon/brand.webp"),
@@ -53,7 +56,7 @@ export default
     GEETHA: require("../images/team/img-7.webp"),
     MANO: require("../images/team/img-8.webp"),
     DANI: require("../images/team/img-9.webp"),
-    BABU: require("../images/team/img-10.png"),
+    BABU: require("../images/team/img-10.webp"),
     BALA: require("../images/team/img-11.webp"),
     SWATHI: require("../images/team/img-12.webp"),
     // Client Web

@@ -2,9 +2,8 @@ import React from 'react';
 import './style.css';
 import { FaCheck } from "react-icons/fa";
 
-export default function 
-() {
-  return (
+const Arrive = () => {
+    return (
     <div className='cust-sect-arrive pt-5 pb-5'>
         <div className='container'>
             <h1 className='text-white'>Where do <span>we arrive at</span> a result?</h1>
@@ -81,5 +80,7 @@ export default function
             </main>
         </div>
     </div>
-  )
-}
+    )
+  };
+
+export default Arrive; 
