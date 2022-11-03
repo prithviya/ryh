@@ -2,6 +2,7 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Images from "../../constants/asset";
 import './styles.css';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Team() {
   return (
@@ -12,7 +13,7 @@ function Team() {
                 <ul className="list-members mb-0 p-0 mb-5">
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.NAGARAJ }/>
+                        <LazyLoadImage src={ Images.NAGARAJ }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Nagaraj</h3>
@@ -22,7 +23,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.MEHALA }/>
+                        <LazyLoadImage src={ Images.MEHALA }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Mehala Govindaraj</h3>
@@ -32,7 +33,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.VINO }/>
+                        <LazyLoadImage src={ Images.VINO }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Vinothini</h3>
@@ -42,7 +43,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.RAJ }/>
+                        <LazyLoadImage src={ Images.RAJ }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Raj Kumar</h3>
@@ -56,7 +57,7 @@ function Team() {
                 <ul className="list-members mb-0 p-0 mb-5">
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.GOWTHAM }/>
+                        <LazyLoadImage src={ Images.GOWTHAM }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Bala Murugan</h3>
@@ -66,7 +67,7 @@ function Team() {
                     </li>                    
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.FARINA }/>
+                        <LazyLoadImage src={ Images.FARINA }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Farina Khaligh</h3>
@@ -76,7 +77,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.GEETHA }/>
+                        <LazyLoadImage src={ Images.GEETHA }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Geetha</h3>
@@ -86,7 +87,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.MANO }/>
+                        <LazyLoadImage src={ Images.MANO }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Mano</h3>
@@ -100,7 +101,7 @@ function Team() {
                 <ul className="list-members mb-0 p-0 mb-5">
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.DANI }/>
+                        <LazyLoadImage src={ Images.DANI }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Dani</h3>
@@ -110,7 +111,7 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.BABU }/>
+                        <LazyLoadImage src={ Images.BABU }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Anandh Palanisamy</h3>
@@ -120,66 +121,43 @@ function Team() {
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.BALA } />
-                        </div>
-                        <div className="member-info">
-                        <h3 className='text-white'>Bala Krishnan</h3>
-                        <p className='text-white'>Business Development Executive</p>
-                        
+                            <LazyLoadImage src={ Images.BALA }   loading="lazy" alt='team_section'/>
+                            </div>
+                            <div className="member-info">
+                            <h3 className='text-white'>Bala Krishnan</h3>
+                            <p className='text-white'>Business Development Executive</p>                        
                         </div>
                     </li>
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.SWATHI } />
+                        <LazyLoadImage src={ Images.UDHAYA}  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
-                        <h3 className='text-white'>Swathi</h3>
-                        <p className='text-white'>Team Associate</p>
-                        
+                        <h3 className='text-white'>Udhaya Kumari</h3>
+                        <p className='text-white'>Digital Marketing Specialist</p>                        
                         </div>
                     </li>
                 </ul>
             </Carousel.Item>
             <Carousel.Item>
                 <ul className="list-members mb-0 p-0 mb-5">
-                    <li className="member">
+                    {/* <li className="member">
                         <div className="member-image">
-                        <img src={ Images.BANNER_LOGO }/>
+                        <LazyLoadImage src={ Images.BANNER_LOGO }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
-                        <h3 className='text-white'>Udhaya Kumari</h3>
-                        <p className='text-white'>Digital Marketing Specialist</p>
+                        <h3 className='text-white'>Augustine</h3>
+                        <p className='text-white'>UI/UX designer</p>
                         
                         </div>
-                    </li>
+                    </li> */}
                     <li className="member">
                         <div className="member-image">
-                        <img src={ Images.BANNER_LOGO }/>
-                        </div>
-                        <div className="member-info">
-                        <h3 className='text-white'>Pavithra</h3>
-                        <p className='text-white'>Social Media Associate</p>
-                        
-                        </div>
-                    </li>
-                    <li className="member">
-                        <div className="member-image">
-                        <img src={ Images.BANNER_LOGO }/>
-                        </div>
-                        <div className="member-info">
-                        <h3 className='text-white'>lorem ipsum </h3>
-                        <p className='text-white'>lorem ipsum dolor sit</p>
-                        
-                        </div>
-                    </li>
-                    <li className="member">
-                        <div className="member-image">
-                        <img src={ Images.BANNER_LOGO }/>
-                        </div>
-                        <div className="member-info">
-                        <h3 className='text-white'>lorem ipsum </h3>
-                        <p className='text-white'>lorem ipsum dolor sit</p>
-                        
+                            <LazyLoadImage src={ Images.PAVI}  loading="lazy" alt='team_section'/>
+                            </div>
+                            <div className="member-info">
+                            <h3 className='text-white'>Pavithra</h3>
+                            <p className='text-white'>Social Media Associate</p>
                         </div>
                     </li>
                 </ul>

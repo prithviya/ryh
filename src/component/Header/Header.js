@@ -15,20 +15,20 @@ function Header() {
         <Navbar key={expand} bg="light" expand={expand}>
           <Container fluid>
             <Navbar.Brand href="#">
-              <img src={ Image.BANNER_LOGO } alt="" style={{maxWidth: "150px", marginLeft: '20px'}}/>
+              <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "150px", marginLeft: '20px'}}/>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{border:'none'}}>
-              <img src={ Image.MENU_ICON}/>
-            </Navbar.Toggle>
+            {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{border:'none'}}>
+              <img src={ Image.MENU_ICON} alt='menu-toggle' loading="lazy"/>
+            </Navbar.Toggle> */}
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img src={ Image.BANNER_LOGO } alt="" style={{maxWidth: "250px"}}/>
-                </Offcanvas.Title>
+                {/* <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "250px"}}/>
+                </Offcanvas.Title> */}
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
@@ -51,7 +51,7 @@ function Header() {
                       </Link>
                     </li> 
                   </Nav.Link>
-                  <Nav.Link href="http://showcase.rankuhigher.in/">
+                  <Nav.Link href="http://showcase.rankuhigher.in/" target={'_blank'} rel="noreferrer">
                     Projects
                   </Nav.Link>
                   <Nav.Link>

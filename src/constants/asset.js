@@ -24,6 +24,9 @@ export default
     DHANA: require("../images/logo/dsce.webp"),
     V2S: require("../images/logo/v2s.webp"),
     VINAYAKA: require("../images/logo/vinayaka.webp"),
+    MILESTONE: require("../images/logo/milestone.png"),
+    EDU: require('../images/logo/edudharma.png'),
+
     // Website
     FLUID_WEB: require("../images/fluid-web.webp"),
     AIC_WEB: require("../images/aic-web.webp"),
@@ -53,9 +56,10 @@ export default
     GEETHA: require("../images/team/img-7.webp"),
     MANO: require("../images/team/img-8.webp"),
     DANI: require("../images/team/img-9.webp"),
-    BABU: require("../images/team/img-10.png"),
+    BABU: require("../images/team/img-10.webp"),
     BALA: require("../images/team/img-11.webp"),
-    SWATHI: require("../images/team/img-12.webp"),
+    UDHAYA: require("../images/team/img-12.jpg"),
+    PAVI: require("../images/team/img-13.jpg"),
     // Client Web
     VS: require("../images/v2s.webp"),
     DHANVA: require("../images/dhavatrai.webp"),

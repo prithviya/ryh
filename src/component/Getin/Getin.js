@@ -1,7 +1,8 @@
-import { useContext, useRef as UseRef, useState as UseSate } from "react";
+import { useRef as UseRef, useState as UseSate } from "react";
 import emailjs from 'emailjs-com';
 import Images from '../../constants/asset';
- 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 function Getin() {
   
     const formRef = UseRef();
@@ -29,7 +30,7 @@ function Getin() {
                     <div className='col-md-7 p-4    '>
                         <h1 className=''>We can solve
 your business problems</h1>
-                        <img src={ Images.GETIN_SECTION } style={{ width:'100%' }}/>
+                        <LazyLoadImage src={ Images.GETIN_SECTION } alt='getintouch'  loading="lazy" style={{ width:'100%' }}/>
                     </div>
                     <div className='col-md-5'>
                         <form id="form" ref={formRef} onSubmit={handleSubmit}>     
