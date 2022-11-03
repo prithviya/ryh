@@ -5,10 +5,10 @@ import CountUp from 'react-countup';
 import { Link } from "react-scroll";
         
     const Banner= () => {
-    const Home = () => <h1>home</h1>;
-    const Articles = () => <h1>Articles</h1>;
-    const Contact = () => <h1>Contact</h1>;
-    const About = () => <h1>About</h1>;
+    // const Home = () => <h1>home</h1>;
+    // const Articles = () => <h1>Articles</h1>;
+    // const Contact = () => <h1>Contact</h1>;
+    // const About = () => <h1>About</h1>;
 
     useEffect(() => {
         // 👇️ scroll to top on page load
@@ -32,7 +32,7 @@ import { Link } from "react-scroll";
                         </span>
                     </button>
                 </Link>
-                <a href="http://showcase.rankuhigher.in/" target={'_blank'} rel="noreferrer" className='ml-3'>
+                <a href="http://showcase.rankuhigher.in/" target={'_blank'} rel="noreferrer" className='ml-4'>
                     <button>
                         <span className= "shadow"></span>
                         <span className= "edge"></span>

@@ -141,16 +141,16 @@ function Team() {
             </Carousel.Item>
             <Carousel.Item>
                 <ul className="list-members mb-0 p-0 mb-5">
-                    {/* <li className="member">
+                    <li className="member">
                         <div className="member-image">
-                        <LazyLoadImage src={ Images.BANNER_LOGO }  loading="lazy" alt='team_section'/>
+                        <LazyLoadImage src={ Images.AUGUSTINE }  loading="lazy" alt='team_section'/>
                         </div>
                         <div className="member-info">
                         <h3 className='text-white'>Augustine</h3>
                         <p className='text-white'>UI/UX designer</p>
                         
                         </div>
-                    </li> */}
+                    </li>
                     <li className="member">
                         <div className="member-image">
                             <LazyLoadImage src={ Images.PAVI}  loading="lazy" alt='team_section'/>
@@ -158,6 +158,24 @@ function Team() {
                             <div className="member-info">
                             <h3 className='text-white'>Pavithra</h3>
                             <p className='text-white'>Social Media Associate</p>
+                        </div>
+                    </li>
+                    <li className="member">
+                        <div className="member-image">
+                            <LazyLoadImage src={ Images.SAKTHI}  loading="lazy" alt='team_section'/>
+                            </div>
+                            <div className="member-info">
+                            <h3 className='text-white'>Sakthi Kanagu</h3>
+                            <p className='text-white'>Executive - Communication</p>
+                        </div>
+                    </li>
+                    <li className="member">
+                        <div className="member-image">
+                            <LazyLoadImage src={ Images.AARTHI}  loading="lazy" alt='team_section'/>
+                            </div>
+                            <div className="member-info">
+                            <h3 className='text-white'>Aarthi</h3>
+                            <p className='text-white'>Customer Support</p>
                         </div>
                     </li>
                 </ul>

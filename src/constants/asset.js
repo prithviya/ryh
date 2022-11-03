@@ -60,6 +60,10 @@ export default
     BALA: require("../images/team/img-11.webp"),
     UDHAYA: require("../images/team/img-12.jpg"),
     PAVI: require("../images/team/img-13.jpg"),
+    AUGUSTINE: require("../images/team/img-14.png"),
+    SAKTHI: require("../images/team/img-15.png"),
+    AARTHI: require("../images/team/img-16.png"),
+
     // Client Web
     VS: require("../images/v2s.webp"),
     DHANVA: require("../images/dhavatrai.webp"),
