@@ -762,8 +762,9 @@ hr
 {
   display:grid;
   grid-template-columns:repeat(4,1fr);
-  grid-template-rows:repeat(2,1fr);
+  grid-template-rows:repeat(1,1fr);
   gap:30px;
+  margin-bottom: 10px;
   align-items:center
 }
 .brand-boxes .brand-box
