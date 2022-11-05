@@ -1,29 +1,7 @@
-.krmNah 
-{
-    background-color: #d43b04 !important;
-    box-shadow: none !important;
-}
-.jhmYzC {
-    box-shadow: 0 0 1px 2px #f74808b9 !important;
-}
+
 .custom-list
 {
     list-style-type: none;
-}
-
-.eWjCzc
-{
-    background-color: #d43b04 !important;
-    color:#fff !important;
-    box-shadow: none !important;
-    border-radius: 0px !important;
-    width: 40px !important;
-    height: 50px !important;
-}
-.eAyARa
-{
-    box-shadow: none !important;
-    border-radius: 0px !important;
 }
 .custom-list
 {
@@ -39,6 +17,12 @@
 {
     font-size: 1.16rem;
 }
-.hHJTFD {
-    margin: 0 3px !important;
+.accordion-button:not(.collapsed) {
+    color: #d43b04;
+    background-color: #d43b042d;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #d43b04;
 }
+.accordion-button:not(.collapsed)::after {
+    transform: none;
+}
+

@@ -71,4 +71,13 @@ export default
     MCEET: require("../images/mceet.webp"),
     ONE: require("../images/one-market.webp"),
     RATHINAM: require("../images/rathinam.webp"),
+    // seo-service page
+    SEO_OVERVIEW: require('../images/seoservicepage/img-1.webp'),
+    SEO_AUDIT: require('../images/seoservicepage/img-2.webp'),
+    SEO_KEYWORD: require('../images/seoservicepage/img-3.webp'),
+    SEO_CONTENT: require('../images/seoservicepage/img-4.webp'),
+    SEO_ONPAGE: require('../images/seoservicepage/img-5.webp'),
+    SEO_OFFPAGE: require('../images/seoservicepage/img-6.webp'),
+    SEO_LOCAL: require('../images/seoservicepage/img-7.webp'),
+    SEO_REPORT: require('../images/seoservicepage/img-8.webp'),
 };

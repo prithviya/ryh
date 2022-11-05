@@ -10,6 +10,7 @@
 {
   --orange: hsl(12, 98%, 50%);
   --grey: #43494e;
+  --green: #2CB742;
 }
 .custom-font-icon
 {
@@ -21,7 +22,10 @@
     color: #d43b04;
     font-family: 'Montserrat', sans-serif; 
 }
-
+.text-green
+{
+  color: var(--green);
+}
 
 /* banner */
 

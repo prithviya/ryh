@@ -4,10 +4,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
 import './Header.css';
 import { Link } from "react-scroll";
-
-
 function Header() {
   return (
     <>
@@ -37,6 +37,11 @@ function Header() {
                       <Link to="about">About</Link>
                     </li>  
                   </Nav.Link>
+                  {/* <NavDropdown title="Services" id="collasible-nav-dropdown">
+                    <NavDropdown.Item>
+                      SEO Services
+                    </NavDropdown.Item>                    
+                  </NavDropdown> */}
                   <Nav.Link href="">
                     <li className="">
                       <Link to="service">
