@@ -17,12 +17,15 @@
 {
     font-size: 1.16rem;
 }
-.accordion-button:not(.collapsed) {
+/* .accordion-button:not(.collapsed) {
     color: #d43b04;
     background-color: #d43b042d;
     box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #d43b04;
 }
 .accordion-button:not(.collapsed)::after {
     transform: none;
+    background-image: floralwhite;
+} */
+.table-bordered td, .table-bordered th, .table thead th, .table td {
+    border: 1px solid #808080;
 }
-

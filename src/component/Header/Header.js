@@ -1,79 +1,87 @@
 import React from 'react';
+import { useState } from "react";
+import { NavLink } from "react-router-dom";
+import "./Header.css";
 import Image from '../../constants/asset';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Offcanvas from 'react-bootstrap/Offcanvas';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-
-import './Header.css';
 import { Link } from "react-scroll";
 function Header() {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
   return (
     <>
-      {['sm'].map((expand) => (
-        <Navbar key={expand} bg="light" expand={expand}>
-          <Container fluid>
-            <Navbar.Brand href="#">
-              <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "150px", marginLeft: '20px'}}/>
-            </Navbar.Brand>
-            {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} style={{border:'none'}}>
-              <img src={ Image.MENU_ICON} alt='menu-toggle' loading="lazy"/>
-            </Navbar.Toggle> */}
-            <Navbar.Offcanvas
-              id={`offcanvasNavbar-expand-${expand}`}
-              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
-              placement="end"
-            >
-              <Offcanvas.Header closeButton>
-                {/* <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "250px"}}/>
-                </Offcanvas.Title> */}
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="">
-                    <li className="">
-                      <Link to="about">About</Link>
-                    </li>  
-                  </Nav.Link>
-                  {/* <NavDropdown title="Services" id="collasible-nav-dropdown">
-                    <NavDropdown.Item>
-                      SEO Services
-                    </NavDropdown.Item>                    
-                  </NavDropdown> */}
-                  <Nav.Link href="">
-                    <li className="">
-                      <Link to="service">
-                        Services
-                      </Link>
-                    </li>  
-                  </Nav.Link>
-                  <Nav.Link href="">
-                    <li className="">
-                      <Link to="team">
-                        Team
-                      </Link>
-                    </li> 
-                  </Nav.Link>
-                  <Nav.Link href="http://showcase.rankuhigher.in/" target={'_blank'} rel="noreferrer">
-                    Projects
-                  </Nav.Link>
-                  <Nav.Link>
-                    <li className="">
-                      <Link to="contact">
-                        Contact
-                      </Link>
-                    </li>
-                  </Nav.Link>
-                </Nav>
-              </Offcanvas.Body>
-            </Navbar.Offcanvas>
-          </Container>
-        </Navbar>
-      ))}
+      <nav className="navbar">
+        <div className="nav-container">
+          <NavLink exact to="/" className="nav-logo">
+            <img src={ Image.BANNER_LOGO } alt="logo" style={{maxWidth: "150px", marginLeft: '20px'}}/>
+          </NavLink>
+
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >About Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="service"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Services
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link 
+                to="team"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >Team
+              </Link>
+            </li>
+            <li className="nav-item">
+              <a href="http://showcase.rankuhigher.in/"
+                activeClassName="active"
+                className="nav-links" target={'_blank'} rel="noreferrer noopener"
+                onClick={handleClick}
+              >Projects
+              </a>
+            </li>
+            <li className="nav-item">
+              <Link
+               to="contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact
+              </Link>
+            </li>
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
+        </div>
+      </nav>
     </>
-  )
+  );
 }
 
 export default Header

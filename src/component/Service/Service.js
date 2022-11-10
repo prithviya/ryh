@@ -21,11 +21,11 @@ function Service() {
                 The intention of performing SEO is for the website to gain more visibility and thereby, traffic. On ranking higher in the search engine result pages, the particular website will see an increased number of visitors, who are transformed into customers. Performing SEO for a website is the first and most significant step to bringing more eyeballs to it. There are various sub-categories in SEO, in which each one adds to bringing more traffic to the website.
                 </p>
               </div>
-              <div className='col-md-6 col-sm-12 text-center'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='' src={Images.SEO_OVERVIEW} alt='overviewofSEOimg'/>
               </div>
               {/* seo audit */}
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_AUDIT} alt='overviewofSEOauditimg'/>
               </div>
               <div className='col-md-6 col-sm-12'>
@@ -47,11 +47,11 @@ function Service() {
                 Keyword research is done using keyword research tools. Keyword research breaks down the searches made by your target audience by giving you information like the most and least searched keywords and the number of people doing it. With the data obtained from the keyword research tools, it becomes possible to utilize it to make the pages of your website appear in the search engine result pages when your target audience searches for terms relating to your website.
                 </p>
               </div>
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_KEYWORD} alt='SEO_Keywordimg'/>
               </div>
               {/* content development */}
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_CONTENT} alt='SEOcontentdevelopment'/>
               </div>
               <div className='col-md-6 col-sm-12'>
@@ -73,11 +73,11 @@ function Service() {
                 Any form of content on the website, which has a sufficient number of keywords, is highly relevant to the subject, and gives an in-depth idea is considered to be of the finest quality. Web pages with such types of content are the ones that are ranked at the top positions on search engine result pages page. Hence, on-page SEO is one way to boost your website’s position in the search engine result pages.
                 </p>
               </div>
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_ONPAGE} alt='SEOonpage'/>
               </div>
               {/* Off-Page SEO */}
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_OFFPAGE} alt='SEOoffpage'/>
               </div>
               <div className='col-md-6 col-sm-12'>
@@ -99,11 +99,11 @@ function Service() {
                 Such search results come in handy to people, when they are seeking businesses that are nearby. Local SEO is a way of making your business appear on organic search engine result pages
                 </p>
               </div>
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_LOCAL} alt='SEOLocal'/>
               </div>
               {/* SEO Reporting */}
-              <div className='col-md-6 col-sm-12'>
+              <div className='col-md-6 col-sm-12 custom-align-center'>
                 <img className='text-center align-center' src={Images.SEO_REPORT} alt='SEOLocal'/>
               </div>
               <div className='col-md-6 col-sm-12'>
@@ -122,104 +122,106 @@ function Service() {
         <div className='pt-5 pb-5 container cust-sect-service'>
           <div className='container'>
             <h1 className='text-center pb-5'>Lorem Ipsum <span>dolor sit amet</span></h1>
+            <Table class="table table-bordered"  responsive='md' style={{textAlign:"center",paddingLeft:"200px", paddingRight:"200px"}}>
+              <thead>
+                <tr class="active">
+                  <th style={{background:"#fff"}}><center></center></th>
+                  <th><center><h3>Basic</h3><p class="text-muted text-sm">Ideal for small operations.</p></center></th>
+                  <th><center><h3>Plus</h3><p class="text-muted text-sm">Perfect for larger operations.</p></center></th>
+                  <th><center><h3>Super</h3><p class="text-muted text-sm">Perfect for those who want software.</p></center></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><br />Deliverables Lorem Ipsum dolor sit</td>
+                  <td><h3 class="panel-title price">$399</h3></td>
+                  <td><h3 class="panel-title price">$699</h3></td>
+                  <td><h3 class="panel-title price">$799</h3></td>
+                </tr>               
+              </tbody>
+            </Table>
             <Accordion defaultActiveKey={['1']} alwaysOpen>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Initial Review & Analysis</Accordion.Header>
                 <Accordion.Body>
-                <Table responsive='md'>
-                  <thead>
-                    <tr className='text-center'>
-                      <th>Deliverables</th>
-                      <th>Small</th>
-                      <th>Professional</th>
-                      <th>Performance</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className='text-center'>
-                      <td></td>
-                      <td>5 Keywords - 6 Months</td>
-                      <td>15 Keywords - 6 Months</td>
-                    </tr>
-                    <tr className=''>
-                      <td className=''>In-Depth Site Analysis</td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td rowSpan={10} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
-                    </tr>
-                    <tr className=''>
-                      <td>Content Duplicacy Check - Mirror Site</td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                    </tr>
-                    <tr className=''>
-                      <td>Initial Ranking Report</td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                    </tr>
-                    <tr className=''>
-                      <td>Keyword Research & Selection</td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                    </tr>
-                    <tr className=''>
-                      <td>Keyword Research & Selection - All Individual Pages</td>
-                      <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                      <td className='text-center'>Max 10 Pages</td>
-                    </tr>
-                    <tr className=''>
-                      <td>Competition Analysis</td>
-                      <td className='text-center'>Max 3 Websites</td>
-                      <td className='text-center'>Max 10 Websites</td>
-                    </tr>
-                    <tr className=''>
-                      <td>Backlink Analysis</td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                    </tr>
-                    <tr className=''>
-                      <td>Google Penalty Check</td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                    </tr>
-                    <tr className=''>
-                      <td>Technical Advice on Website</td>
-                      <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                    </tr>
-                  </tbody>
-                </Table>
+                  <Table className='table table-bordered' responsive='md' style={{textAlign:"center",paddingLeft:"200px", paddingRight:"200px"}}>
+                    <tbody>
+                      <tr>
+                        <td>-</td>
+                        <td>5 Keywords - 6 Months</td>
+                        <td>15 Keywords - 6 Months</td>
+                        <td>-</td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>In-Depth Site Analysis</td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td rowSpan={10} style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Content Duplicacy Check - Mirror Site</td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Initial Ranking Report</td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Keyword Research & Selection</td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Keyword Research & Selection - All Individual Pages</td>
+                        <td><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td>Max 10 Pages</td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Competition Analysis</td>
+                        <td>Max 3 Websites</td>
+                        <td>Max 10 Websites</td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Backlink Analysis</td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Google Penalty Check</td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td className='text-left'>Technical Advice on Website</td>
+                        <td><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                    </tbody>
+                  </Table>               
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>On Page Optimization</Accordion.Header>
                 <Accordion.Body>
                   <Table responsive='md'>
-                    <thead>
-                      <tr className='text-center'>
-                        <th>Deliverables</th>
-                        <th>Small</th>
-                        <th>Professional</th>
-                        <th>Performance</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr className=''>
                         <td className=''>On page SEO - Pages</td>
                         <td className='text-center'>Top 5 Pages</td>
                         <td className='text-center'>Top 15 Pages</td>
-                        <td></td>
+                        <td rowSpan={19} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Cnicalization</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td>Header (H1) Tags Optimization</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 5 Pages</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 5 Pages</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>5 Pages</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>15 Pages</td>
                       </tr>
                       <tr className=''>
                         <td>Internal Link Structuring & Optimization</td>
@@ -268,8 +270,8 @@ function Service() {
                       </tr>
                       <tr className=''>
                         <td>Title & Meta Tags Optimization</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 5 Pages</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 15 Pages</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> 5 Pages</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> 15 Pages</td>
                       </tr>
                       <tr className=''>
                         <td>Image & Hyperlink Optimization</td>
@@ -309,31 +311,22 @@ function Service() {
                 <Accordion.Header>Local Search Optimization</Accordion.Header>
                 <Accordion.Body>
                   <Table responsive='md'>
-                    <thead>
-                      <tr className='text-center'>
-                        <th>Deliverables</th>
-                        <th>Small</th>
-                        <th>Professional</th>
-                        <th>Performance</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr className=''>
                         <td className=''>Google Business Profile Setup & Verification</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td></td>
+                        <td rowSpan={3} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Product / Services listing</td>
-                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/>No Product / Services</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td>Bing Local Listing Setup</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>Yes Product / Services</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -343,26 +336,17 @@ function Service() {
                 <Accordion.Header>Off Page + Content Marketing</Accordion.Header>
                 <Accordion.Body>
                   <Table responsive='md'>
-                    <thead>
-                      <tr className='text-center'>
-                        <th>Deliverables</th>
-                        <th>Small</th>
-                        <th>Professional</th>
-                        <th>Performance</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr className=''>
                         <td className=''>Official Blog SetUp (Wordpress)</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td></td>
+                        <td rowSpan={10} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Informational Article Writing</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/>No Informational Article</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td>Informational Article Submission</td>
@@ -397,7 +381,7 @@ function Service() {
                       <tr className=''>
                         <td>Blog Commenting</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>Yes Blog Commenting</td>
                       </tr>
                       <tr className=''>
                         <td>Video Creation</td>
@@ -412,26 +396,17 @@ function Service() {
                 <Accordion.Header>Social Media Optimization</Accordion.Header>
                 <Accordion.Body>
                   <Table responsive='md'>
-                    <thead>
-                      <tr className='text-center'>
-                        <th>Deliverables</th>
-                        <th>Small</th>
-                        <th>Professional</th>
-                        <th>Performance</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr className=''>
                         <td className=''>Facebook & Twitter Account Setup </td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Facebook cover Page Design </td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td>Profile Content Writing</td>
@@ -445,7 +420,7 @@ function Service() {
                       </tr>
                       <tr className=''>
                         <td>Google + Update</td>
-                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/>No Google and Update</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                       </tr>
                       <tr className=''>
@@ -461,7 +436,7 @@ function Service() {
                       <tr className=''>
                         <td>Video Submission</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>Yes Video Submission</td>
                       </tr>
                     </tbody>
                   </Table>
@@ -471,26 +446,17 @@ function Service() {
                 <Accordion.Header>Monthly Reporting</Accordion.Header>
                 <Accordion.Body>
                   <Table responsive='md'>
-                    <thead>
-                      <tr className='text-center'>
-                        <th>Deliverables</th>
-                        <th>Small</th>
-                        <th>Professional</th>
-                        <th>Performance</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr className=''>
                         <td className=''>Search Engine Rank Report </td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td></td>
+                        <td rowSpan={7} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>SEO Reports</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td>Google Analytics Report</td>
@@ -499,13 +465,13 @@ function Service() {
                       </tr>
                       <tr className=''>
                         <td>Activity Report</td>
-                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/> No Activity Report</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
                       </tr>
                       <tr className=''>
                         <td>Monthly Action Plan</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>Yes Monthly Activity Plan</td>
                       </tr>                      
                     </tbody>
                   </Table>
@@ -515,31 +481,23 @@ function Service() {
                 <Accordion.Header>Customer Support </Accordion.Header>
                 <Accordion.Body>
                   <Table responsive='md'>
-                    <thead>
-                      <tr className='text-center'>
-                        <th>Deliverables</th>
-                        <th>Small</th>
-                        <th>Professional</th>
-                        <th>Performance</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr className=''>
                         <td className=''>Email/Chat/Online</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td></td>
+                        <td rowSpan={3} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>24/7 Live Project Tracking</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/> No Project Tracking</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td>Skype Meeting /<br/> Review Meeting on Call (6 Months)</td>
                         <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>Yes, Skype /
+Review Meeting on Call</td>
                       </tr>                     
                     </tbody>
                   </Table>
@@ -581,7 +539,7 @@ function Service() {
                 </Accordion>
               </div>
               <div className='col-md-4 col-sm-12'>
-
+                <img className='' src={Images.FAQ} alt='overviewofSEOimg'/>
               </div>
             </div>
           </div>

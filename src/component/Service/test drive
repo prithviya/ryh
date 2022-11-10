@@ -1,0 +1,425 @@
+
+ <Accordion defaultActiveKey={['1']} alwaysOpen>
+              <Accordion.Item eventKey="1">
+                <Accordion.Header>Initial Review & Analysis</Accordion.Header>
+                <Accordion.Body>
+                <Table responsive='md'>
+                  <thead>
+                    <tr className='text-center'>
+                      <th>Deliverables</th>
+                      <th>Small</th>
+                      <th>Professional</th>
+                      <th>Performance</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr className='text-center'>
+                      <td></td>
+                      <td>5 Keywords - 6 Months</td>
+                      <td>15 Keywords - 6 Months</td>
+                    </tr>
+                    <tr className=''>
+                      <td className=''>In-Depth Site Analysis</td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td rowSpan={10} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                    </tr>
+                    <tr className=''>
+                      <td>Content Duplicacy Check - Mirror Site</td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                    </tr>
+                    <tr className=''>
+                      <td>Initial Ranking Report</td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                    </tr>
+                    <tr className=''>
+                      <td>Keyword Research & Selection</td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                    </tr>
+                    <tr className=''>
+                      <td>Keyword Research & Selection - All Individual Pages</td>
+                      <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      <td className='text-center'>Max 10 Pages</td>
+                    </tr>
+                    <tr className=''>
+                      <td>Competition Analysis</td>
+                      <td className='text-center'>Max 3 Websites</td>
+                      <td className='text-center'>Max 10 Websites</td>
+                    </tr>
+                    <tr className=''>
+                      <td>Backlink Analysis</td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                    </tr>
+                    <tr className=''>
+                      <td>Google Penalty Check</td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                    </tr>
+                    <tr className=''>
+                      <td>Technical Advice on Website</td>
+                      <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                    </tr>
+                  </tbody>
+                </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="2">
+                <Accordion.Header>On Page Optimization</Accordion.Header>
+                <Accordion.Body>
+                  <Table responsive='md'>
+                    <thead>
+                      <tr className='text-center'>
+                        <th>Deliverables</th>
+                        <th>Small</th>
+                        <th>Professional</th>
+                        <th>Performance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className=''>
+                        <td className=''>On page SEO - Pages</td>
+                        <td className='text-center'>Top 5 Pages</td>
+                        <td className='text-center'>Top 15 Pages</td>
+                        <td></td>
+                      </tr>
+                      <tr className=''>
+                        <td className=''>Cnicalization</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Header (H1) Tags Optimization</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 5 Pages</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 5 Pages</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Internal Link Structuring & Optimization</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Existing Content Optimization</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Robots.Txt Creation/Analysis</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Xml Sitemap/Analysis</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Google Webmaster Tools Set Up (ift set up)</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Google Analytics Set Up (ift setup)</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Google Tag Manager</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Basic Tracking (Email & Contact clicks)</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Advanced Tracking</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Page Speed Optimization Analysis</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Google Analytics setup with conversion tracking</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Title & Meta Tags Optimization</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 5 Pages</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/> - Upto 15 Pages</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Image & Hyperlink Optimization</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Bing Webmaster Tools Set Up (ift set up)</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>HTML Site Map Creation</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Check Mobility Issues</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Custom 404 Page Analysis</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>URL Structure Analysis</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="3">
+                <Accordion.Header>Local Search Optimization</Accordion.Header>
+                <Accordion.Body>
+                  <Table responsive='md'>
+                    <thead>
+                      <tr className='text-center'>
+                        <th>Deliverables</th>
+                        <th>Small</th>
+                        <th>Professional</th>
+                        <th>Performance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className=''>
+                        <td className=''>Google Business Profile Setup & Verification</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td></td>
+                      </tr>
+                      <tr className=''>
+                        <td className=''>Product / Services listing</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Bing Local Listing Setup</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="4">
+                <Accordion.Header>Off Page + Content Marketing</Accordion.Header>
+                <Accordion.Body>
+                  <Table responsive='md'>
+                    <thead>
+                      <tr className='text-center'>
+                        <th>Deliverables</th>
+                        <th>Small</th>
+                        <th>Professional</th>
+                        <th>Performance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className=''>
+                        <td className=''>Official Blog SetUp (Wordpress)</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td></td>
+                      </tr>
+                      <tr className=''>
+                        <td className=''>Informational Article Writing</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Informational Article Submission</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Guest Blog Post Writing</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Guest Blog Posting </td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Social Bookmarking </td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Web 2.0 Submission (Blog)</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Infographic Design & Submission (6 months)</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Blog Commenting</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Video Creation</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="5">
+                <Accordion.Header>Social Media Optimization</Accordion.Header>
+                <Accordion.Body>
+                  <Table responsive='md'>
+                    <thead>
+                      <tr className='text-center'>
+                        <th>Deliverables</th>
+                        <th>Small</th>
+                        <th>Professional</th>
+                        <th>Performance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className=''>
+                        <td className=''>Facebook & Twitter Account Setup </td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td></td>
+                      </tr>
+                      <tr className=''>
+                        <td className=''>Facebook cover Page Design </td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Profile Content Writing</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Facebook Wall Updates</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Google + Update</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Facebook Timeline Design (6 Months)</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Video Creation (6 Months)</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Video Submission</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                    </tbody>
+                  </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="6">
+                <Accordion.Header>Monthly Reporting</Accordion.Header>
+                <Accordion.Body>
+                  <Table responsive='md'>
+                    <thead>
+                      <tr className='text-center'>
+                        <th>Deliverables</th>
+                        <th>Small</th>
+                        <th>Professional</th>
+                        <th>Performance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className=''>
+                        <td className=''>Search Engine Rank Report </td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td></td>
+                      </tr>
+                      <tr className=''>
+                        <td className=''>SEO Reports</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Google Analytics Report</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Activity Report</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                      </tr>
+                      <tr className=''>
+                        <td>Monthly Action Plan</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>                      
+                    </tbody>
+                  </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+              <Accordion.Item eventKey="7">
+                <Accordion.Header>Customer Support </Accordion.Header>
+                <Accordion.Body>
+                  <Table responsive='md'>
+                    <thead>
+                      <tr className='text-center'>
+                        <th>Deliverables</th>
+                        <th>Small</th>
+                        <th>Professional</th>
+                        <th>Performance</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className=''>
+                        <td className=''>Email/Chat/Online</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td></td>
+                      </tr>
+                      <tr className=''>
+                        <td className=''>24/7 Live Project Tracking</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                      </tr>
+                      <tr className=''>
+                        <td>Skype Meeting /<br/> Review Meeting on Call (6 Months)</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                      </tr>                     
+                    </tbody>
+                  </Table>
+                </Accordion.Body>
+              </Accordion.Item>
+            </Accordion>

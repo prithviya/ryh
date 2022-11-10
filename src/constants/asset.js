@@ -1,9 +1,8 @@
 export default
 {
     BANNER_SECTION: require("../images/banner.webp"),
-    BANNER_LOGO: require("../images/brand-logo.webp"),
+    BANNER_LOGO: require("../images/ryh-logo.png"),
     MENU_ICON: require("../images/icon/menu.webp"),
-    WORKFLOW_SECTION: require("../images/web.webp"),
     CONTACT_SECTION: require("../images/contact.webp"),
     GETIN_SECTION: require("../images/getin.webp"),
     // client 
@@ -78,6 +77,7 @@ export default
     SEO_CONTENT: require('../images/seoservicepage/img-4.webp'),
     SEO_ONPAGE: require('../images/seoservicepage/img-5.webp'),
     SEO_OFFPAGE: require('../images/seoservicepage/img-6.webp'),
-    SEO_LOCAL: require('../images/seoservicepage/img-7.webp'),
+    SEO_LOCAL: require('../images/seoservicepage/img-7.png'),
     SEO_REPORT: require('../images/seoservicepage/img-8.webp'),
+    FAQ: require('../images/seoservicepage/faq.webp'),
 };
