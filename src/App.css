@@ -29,22 +29,33 @@
 
 /* banner */
 
-.styles_navLinks__38tON a {
-  letter-spacing: 0px !important;
-  font-size: 16px !important;
-  text-transform: capitalize !important;
-}
-.styles_navSocial__3JBh_ {
-  width: 0vw !important;
-}
 .custom-sec-banner
 {
-  background-image: url('./images/banner.webp');
+  background-image: url('./images/banner/banner.webp');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
 }
-
+.cust-banner
+{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 60vh;
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.cust-abt-banner
+{
+  background-image: url('./images/banner/about-us.webp');
+}
+.cust-seo-banner
+{
+  background-image: url('./images/banner/seoservices.webp');
+}
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-collapse .navbar-nav .nav-item
 {
   padding-left: 3rem !important;

@@ -9,11 +9,13 @@ import Getin from '../component/Getin/Getin';
 import Testimonial from '../component/Testimonial/Testimonial';
 import Client from '../component/Client/Client';
 import Team from '../component/Team/Team';
+import Banner from '../component/Banner/Banner';
 
 function Home() {
   return (
     <div>
-        <div id="about">
+      <Banner/>
+      <div id="about">
         <About/>
       </div>
       <div id="">

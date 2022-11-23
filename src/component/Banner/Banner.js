@@ -1,15 +1,13 @@
 import React from 'react';
-import {useEffect} from 'react';
-import { FaArrowUp } from "react-icons/fa"; 
 import CountUp from 'react-countup';
 import { Link } from "react-scroll";
 
     const Banner= () => {
    
-    useEffect(() => {
-        // 👇️ scroll to top on page load
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
+    // useEffect(() => {
+    //     // 👇️ scroll to top on page load
+    //     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    //   }, []);
     
   return (
     <div className='custom-sec-banner pb-5'>
@@ -51,30 +49,7 @@ import { Link } from "react-scroll";
                 </div>
             </div>
         </div>
-        <div>
-
-    {/* 👇️ scroll to top on button click */}
-            <button
-                onClick={() => {
-                window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-                }}
-                style={{
-                position: 'fixed',
-                padding: '5px 10px',
-                fontSize: '20px',
-                bottom: '115px',
-                right: '40px',
-                background: 'linear-gradient(19deg, #4a4c4d 10%, #d43b04 100%)',
-                // backgroundColor: 'rgb(212, 59, 4)',
-                color: '#fff',
-                textAlign: 'center',
-                zIndex: '9999',
-                borderRadius: '28% 100% 84% 47% / 43% 73% 47% 78%',
-                }}
-            >
-                <FaArrowUp/>
-            </button>
-        </div>
+        
     </div>
   )
 }

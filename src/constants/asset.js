@@ -1,10 +1,11 @@
 export default
 {
-    BANNER_SECTION: require("../images/banner.webp"),
+    BANNER_SECTION: require("../images/banner/banner.webp"),
     BANNER_LOGO: require("../images/ryh-logo.png"),
     MENU_ICON: require("../images/icon/menu.webp"),
     CONTACT_SECTION: require("../images/contact.webp"),
     GETIN_SECTION: require("../images/getin.webp"),
+    
     // client 
     ANGLOFONE: require("../images/logo/anglo.webp"),
     AIC: require("../images/logo/aic.webp"),
@@ -38,6 +39,7 @@ export default
     HADID: require("../images/hadid.webp"),
     RPS: require("../images/rps.webp"),
     MET: require("../images/mcet.webp"),
+
     // lcon
     SEO_ICON: require("../images/icon/seo.webp"),
     SEM_ICON: require("../images/icon/sem.webp"),
@@ -45,6 +47,7 @@ export default
     APP_ICON: require("../images/icon/app.webp"),
     MOB_ICON: require("../images/icon/mob.webp"),
     BRAND_ICON: require("../images/icon/brand.webp"),
+
     // team
     NAGARAJ: require("../images/team/img-1.webp"),
     MEHALA: require("../images/team/img-2.webp"),
@@ -70,6 +73,7 @@ export default
     MCEET: require("../images/mceet.webp"),
     ONE: require("../images/one-market.webp"),
     RATHINAM: require("../images/rathinam.webp"),
+
     // seo-service page
     SEO_OVERVIEW: require('../images/seoservicepage/img-1.webp'),
     SEO_AUDIT: require('../images/seoservicepage/img-2.webp'),
@@ -80,4 +84,5 @@ export default
     SEO_LOCAL: require('../images/seoservicepage/img-7.png'),
     SEO_REPORT: require('../images/seoservicepage/img-8.webp'),
     FAQ: require('../images/seoservicepage/faq.webp'),
+    // 404 page
 };

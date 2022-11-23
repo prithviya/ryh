@@ -1,0 +1,8 @@
+.err-sect-bg
+{
+    background-image: url('../../images/banner/404.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }

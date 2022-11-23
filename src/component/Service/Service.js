@@ -125,15 +125,15 @@ function Service() {
             <Table class="table table-bordered"  responsive='md' style={{textAlign:"center",paddingLeft:"200px", paddingRight:"200px"}}>
               <thead>
                 <tr class="active">
-                  <th style={{background:"#fff"}}><center></center></th>
-                  <th><center><h3>Basic</h3><p class="text-muted text-sm">Ideal for small operations.</p></center></th>
-                  <th><center><h3>Plus</h3><p class="text-muted text-sm">Perfect for larger operations.</p></center></th>
-                  <th><center><h3>Super</h3><p class="text-muted text-sm">Perfect for those who want software.</p></center></th>
+                  <th width="300" style={{background:"#fff"}}><center></center></th>
+                  <th width="200"><center><h3>Basic</h3><p class="text-muted text-sm">Ideal for small operations.</p></center></th>
+                  <th width="200"><center><h3>Plus</h3><p class="text-muted text-sm">Perfect for larger operations.</p></center></th>
+                  <th width="200"><center><h3>Super</h3><p class="text-muted text-sm">Perfect for those who want software.</p></center></th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody> 
                 <tr>
-                  <td><br />Deliverables Lorem Ipsum dolor sit</td>
+                  <td>Deliverables Lorem Ipsum dolor sit amet</td>
                   <td><h3 class="panel-title price">$399</h3></td>
                   <td><h3 class="panel-title price">$699</h3></td>
                   <td><h3 class="panel-title price">$799</h3></td>
@@ -147,16 +147,16 @@ function Service() {
                   <Table className='table table-bordered' responsive='md' style={{textAlign:"center",paddingLeft:"200px", paddingRight:"200px"}}>
                     <tbody>
                       <tr>
-                        <td>-</td>
-                        <td>5 Keywords - 6 Months</td>
-                        <td>15 Keywords - 6 Months</td>
-                        <td>-</td>
+                        <td width="300">-</td>
+                        <td width="200">5 Keywords - 6 Months</td>
+                        <td width="200">15 Keywords - 6 Months</td>
+                        <td width="200" rowSpan={11} style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className='text-left'>In-Depth Site Analysis</td>
                         <td><FaCheck className='custom-font-icon text-green'/></td>
                         <td><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={10} style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        
                       </tr>
                       <tr className=''>
                         <td className='text-left'>Content Duplicacy Check - Mirror Site</td>
@@ -208,10 +208,10 @@ function Service() {
                   <Table responsive='md'>
                     <tbody>
                       <tr className=''>
-                        <td className=''>On page SEO - Pages</td>
-                        <td className='text-center'>Top 5 Pages</td>
-                        <td className='text-center'>Top 15 Pages</td>
-                        <td rowSpan={19} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        <td width="300" className=''>On page SEO - Pages</td>
+                        <td width="200" className='text-center'>Top 5 Pages</td>
+                        <td width="200" className='text-center'>Top 15 Pages</td>
+                        <td width="200" rowSpan={19} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Cnicalization</td>
@@ -313,20 +313,20 @@ function Service() {
                   <Table responsive='md'>
                     <tbody>
                       <tr className=''>
-                        <td className=''>Google Business Profile Setup & Verification</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={3} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        <td width="300" className=''>Google Business Profile Setup & Verification</td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" rowSpan={3} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Product / Services listing</td>
-                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/>No Product / Services</td>
+                        <td className='text-center'><FaTimes className='custom-font-icon text-orange'/></td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                       </tr>
                       <tr className=''>
                         <td>Bing Local Listing Setup</td>
                         <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/>Yes Product / Services</td>
+                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
                       </tr>
                     </tbody>
                   </Table>
@@ -338,10 +338,10 @@ function Service() {
                   <Table responsive='md'>
                     <tbody>
                       <tr className=''>
-                        <td className=''>Official Blog SetUp (Wordpress)</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={10} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        <td width="300" className=''>Official Blog SetUp (Wordpress)</td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" rowSpan={10} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Informational Article Writing</td>
@@ -398,10 +398,10 @@ function Service() {
                   <Table responsive='md'>
                     <tbody>
                       <tr className=''>
-                        <td className=''>Facebook & Twitter Account Setup </td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        <td width="300" className=''>Facebook & Twitter Account Setup </td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" rowSpan={18} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>Facebook cover Page Design </td>
@@ -448,10 +448,10 @@ function Service() {
                   <Table responsive='md'>
                     <tbody>
                       <tr className=''>
-                        <td className=''>Search Engine Rank Report </td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={7} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        <td width="300" className=''>Search Engine Rank Report </td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" rowSpan={7} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>SEO Reports</td>
@@ -483,10 +483,10 @@ function Service() {
                   <Table responsive='md'>
                     <tbody>
                       <tr className=''>
-                        <td className=''>Email/Chat/Online</td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
-                        <td rowSpan={3} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
+                        <td width="300" className=''>Email/Chat/Online</td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" className='text-center'><FaCheck className='custom-font-icon text-green'/></td>
+                        <td width="200" rowSpan={3} className='text-center' style={{verticalAlign : "middle",textAlign:"center"}}>Customized performance marketing pack</td>
                       </tr>
                       <tr className=''>
                         <td className=''>24/7 Live Project Tracking</td>

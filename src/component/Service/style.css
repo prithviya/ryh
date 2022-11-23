@@ -17,6 +17,9 @@
 {
     font-size: 1.16rem;
 }
+.table thead th:hover {
+    background-color: bisque;
+}
 /* .accordion-button:not(.collapsed) {
     color: #d43b04;
     background-color: #d43b042d;
